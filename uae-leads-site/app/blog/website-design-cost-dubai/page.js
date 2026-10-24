@@ -33,7 +33,7 @@ const faqs = [
 ];
 
 const ranges = [
-  { name: "Starter / brochure site", range: "AED 1,500–3,500", fit: "A very small business that needs a clear online presence and a few essential pages.", includes: "Often template-led design, contact information, responsive layout and basic metadata. Confirm the exact page count and support." },
+  { name: "Very lean / template-led site", range: "Lower-budget quotes vary", fit: "A very small business with a tightly limited brief and few essential pages.", includes: "Some suppliers may offer low-cost template builds, but scope and quality vary considerably. Confirm page count, original content, support, ownership and recurring fees before comparing price." },
   { name: "Lead-generation website", range: "AED 3,500–8,000", fit: "A local service business that needs dedicated service pages and strong enquiry paths.", includes: "May include tailored layouts, call and WhatsApp CTAs, contact forms, analytics and a more complete on-page SEO setup." },
   { name: "Custom / bilingual website", range: "AED 8,000+", fit: "A business needing bespoke design, more content, Arabic and English pages or integrations.", includes: "Scope varies widely with UX, translation, custom features, CMS, CRM, booking tools and content production." },
 ];
@@ -90,7 +90,7 @@ export default function WebsiteDesignCostDubai() {
         <div className="cost-grid">{ranges.map(item => <section className="cost-card" key={item.name}>
           <p className="cap">{item.name}</p><h3>{item.range}</h3><p>{item.fit}</p><p className="muted">{item.includes}</p>
         </section>)}</div>
-        <p className="muted">These figures are indicative budgets for scoping conversations. Actual quotes vary by supplier, brief, content, deadlines, technology and support. For a second perspective, see this published <a href="https://www.webdesigningdubai.ae/blog/web-design-cost-dubai" target="_blank" rel="noopener noreferrer">Dubai website cost guide</a>. Treat any third-party pricing guide as a reference, not a substitute for a current written quote.</p>
+        <p className="muted">These are broad planning categories, not verified market averages or independently surveyed prices. We have deliberately avoided presenting a precise “market rate” for the lowest-cost category because public quotes can differ significantly in page count, content, platform, support and what is excluded. Request current, itemised quotes from several providers and compare like-for-like scope.</p>
 
         <h2>What type of website do you actually need?</h2>
         <h3>1. A basic brochure website</h3>
@@ -159,7 +159,7 @@ export default function WebsiteDesignCostDubai() {
         {faqs.map(([q, a]) => <details key={q}><summary>{q}</summary><p>{a}</p></details>)}
 
         <div className="blog-cta"><h2>Want a practical website review?</h2><p>We can review your current website's mobile experience, service-page structure and enquiry paths, then help you identify what is worth prioritising. There is no need to buy features you do not yet need.</p><a className="btn" href={wa("Hi, I'd like a free website review for my UAE service business.")} target="_blank" rel="noopener noreferrer">Request a free review</a></div>
-        <p>Read more on the <Link href="/blog">FixLeads Studio blog</Link>, explore our <Link href="/#pricing">website packages</Link>, or <Link href="/">learn about our approach</Link> to websites for UAE home-service businesses.</p>
+        <p>Read more on the <Link href="/blog">FixLeads Studio blog</Link>, explore our <Link href="/pricing">website packages</Link>, or <Link href="/">learn about our approach</Link> to websites for UAE home-service businesses.</p>
         <p className="muted">Editorial note: pricing examples are general budgeting estimates, not independent market research or a guaranteed quote. Confirm scope and current costs with providers before making a purchase decision.</p>
         <p className="muted"><Link href="/blog">← Back to all guides</Link></p>
       </div></section>
