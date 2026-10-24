@@ -3,7 +3,7 @@ import Link from "next/link";
 import { Bricolage_Grotesque, Manrope } from "next/font/google";
 import { SITE, wa } from "../lib/site";
 import { NICHES } from "../lib/niches";
-import SectionLink from "./SectionLink";
+
 
 const head = Bricolage_Grotesque({ subsets: ["latin"], variable: "--f-head" });
 const body = Manrope({ subsets: ["latin"], variable: "--f-body" });
@@ -44,21 +44,21 @@ export default function Root({ children }) {
               <span className="brand-copy"><strong>{SITE.name}</strong><small>Websites that win enquiries</small></span>
             </Link>
             <nav className="main-nav" aria-label="Main navigation">
-              <SectionLink section="niches">Industries</SectionLink>
-              <SectionLink section="how-it-works">How it works</SectionLink>
-              <SectionLink section="pricing">Pricing</SectionLink>
+              <Link href="/industries">Industries</Link>
+              <Link href="/how-it-works">How it works</Link>
+              <Link href="/pricing">Pricing</Link>
               <Link href="/blog">Blog</Link>
-              <SectionLink section="faq">FAQ</SectionLink>
+              <Link href="/faq">FAQ</Link>
               <a className="btn nav-cta" href={wa("Hi, I'd like a free website review for my UAE service business.")} target="_blank" rel="noopener noreferrer">Free website review <span aria-hidden="true">↗</span></a>
             </nav>
             <details className="mobile-menu">
               <summary aria-label="Open navigation menu"><span className="menu-icon" aria-hidden="true"><i></i><i></i><i></i></span><span className="menu-label">Menu</span></summary>
               <nav className="mobile-menu-panel" aria-label="Mobile navigation">
-                <SectionLink section="niches">Industries</SectionLink>
-                <SectionLink section="how-it-works">How it works</SectionLink>
-                <SectionLink section="pricing">Pricing</SectionLink>
+                <Link href="/industries">Industries</Link>
+                <Link href="/how-it-works">How it works</Link>
+                <Link href="/pricing">Pricing</Link>
                 <Link href="/blog">Blog</Link>
-                <SectionLink section="faq">FAQ</SectionLink>
+                <Link href="/faq">FAQ</Link>
                 <a className="btn" href={wa("Hi, I'd like a free website review for my UAE service business.")} target="_blank" rel="noopener noreferrer">Free website review ↗</a>
               </nav>
             </details>
@@ -82,10 +82,10 @@ export default function Root({ children }) {
               <h2 className="footer-heading">Explore</h2>
               <ul className="footer-links">
                 <li><Link href="/">Home</Link></li>
-                <li><SectionLink section="how-it-works">How it works</SectionLink></li>
-                <li><SectionLink section="pricing">Website packages</SectionLink></li>
+                <li><Link href="/how-it-works">How it works</Link></li>
+                <li><Link href="/pricing">Website packages</Link></li>
                 <li><Link href="/blog">Guides & insights</Link></li>
-                <li><SectionLink section="faq">FAQs</SectionLink></li>
+                <li><Link href="/faq">FAQs</Link></li>
               </ul>
             </div>
             <div>
