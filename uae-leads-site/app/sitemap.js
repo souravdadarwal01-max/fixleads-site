@@ -8,6 +8,7 @@ const staticPages = [
   "/pricing",
   "/how-it-works",
   "/faq",
+  "/work",
   "/blog/website-design-cost-dubai",
 ];
 
