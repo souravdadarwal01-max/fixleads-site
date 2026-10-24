@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { SITE, wa } from "../lib/site";
 import { NICHES } from "../lib/niches";
+import SectionLink from "./SectionLink";
 
 const faqLd = {
   "@context": "https://schema.org",
@@ -38,7 +39,7 @@ export default function Home() {
             <p className="premium-lead">Premium, mobile-first websites for Dubai and UAE home-service companies—designed to make your services clear, build trust and help customers call or message you.</p>
             <div className="cta hero-actions">
               <a className="btn hero-primary" href={wa("Hi FixLeads Studio, I'd like a free website review for my UAE service business.")} target="_blank" rel="noopener noreferrer">Get a free website review <span aria-hidden="true">↗</span></a>
-              <Link className="btn ghost hero-secondary" href="/?section=pricing">Explore packages</Link>
+              <SectionLink className="btn ghost hero-secondary" section="pricing">Explore packages</SectionLink>
             </div>
             <div className="hero-trustline">
               <span><b aria-hidden="true">✓</b> Clear scope & pricing</span>
