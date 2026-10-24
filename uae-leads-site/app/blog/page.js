@@ -17,14 +17,15 @@ export const metadata = {
 
 export default function BlogIndex() {
   return <>
-    <section className="blog-index-hero">
-      <div className="wrap blog-index-hero-grid">
+    <section className="marketing-hero blog-index-hero">
+      <div className="wrap marketing-hero-grid blog-index-hero-grid">
         <div className="blog-index-intro">
           <p className="cap">FIXLEADS STUDIO · INSIGHTS</p>
           <h1>Practical growth guides for UAE service businesses</h1>
           <p className="lead">Straightforward advice on websites, pricing and local visibility—without the jargon.</p>
           <div className="blog-index-tags"><span>Website design</span><span>Local SEO</span><span>Business growth</span></div>
         </div>
+        <img className="marketing-image" src="https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?auto=format&fit=crop&w=1200&q=85" alt="Website design displayed on a laptop, representing website content and digital learning" width="900" height="700" fetchPriority="high" />
       </div>
     </section>
     <section className="sec"><div className="wrap">
