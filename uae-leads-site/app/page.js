@@ -36,7 +36,7 @@ export default function Home() {
       </div>
     </div></section>
 
-    <section className="sec"><div className="wrap">
+    <section className="sec" id="how-it-works"><div className="wrap">
       <h2>How a project runs</h2>
       <ol className="steps">
         <li><b>Review.</b> We look at your current site, Google results and competitors, and send you a short audit.</li>
