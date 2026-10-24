@@ -1,0 +1,18 @@
+export const NICHES = [
+  { slug: "ac-maintenance", name: "AC maintenance", h1: "Website design for AC maintenance companies in the UAE",
+    intro: "Someone with a broken AC in summer wants a person today. Your site should let them call or message in one tap and see exactly what you fix.",
+    pages: ["AC repair", "AC servicing and cleaning", "Annual maintenance contracts", "Duct cleaning", "One page per area you cover"],
+    q: ["What pages does an AC company website need?", "One page for each service you want calls for (repair, servicing, duct cleaning, AMC) and one for each area you cover. Each has a call button, a WhatsApp button and a short list of what is included."] },
+  { slug: "plumbing-handyman", name: "Plumbing and handyman", h1: "Website design for plumbing and handyman companies in the UAE",
+    intro: "Plumbing searches are urgent. Pages must load fast on a phone, show your hours and areas, and put call and WhatsApp buttons in front of the visitor.",
+    pages: ["Leak repair", "Water heater and pipe work", "Handyman services", "Emergency call-out", "One page per area you cover"],
+    q: ["Should an emergency service show its hours?", "Yes. State clearly whether you take same-day or after-hours calls and which areas you reach, because visitors decide in seconds."] },
+  { slug: "pest-control", name: "Pest control", h1: "Website design for pest control companies in the UAE",
+    intro: "People search for the exact pest they have. A separate page for each treatment, with what happens and how to book, matches those searches.",
+    pages: ["Cockroach control", "Bed bug treatment", "Termite treatment", "Rodent control", "Commercial contracts"],
+    q: ["Do I need a page for each pest?", "Usually yes. A page per treatment can match what people type into Google, and lets you explain the process, safety information and booking steps."] },
+  { slug: "cleaning-companies", name: "Cleaning", h1: "Website design for cleaning companies in the UAE",
+    intro: "Cleaning is a crowded market, so general pages rarely win. Pages for specific services and areas, with clear inclusions, give you a better chance.",
+    pages: ["Deep cleaning", "Move-out cleaning", "Villa and apartment cleaning", "Sofa and carpet cleaning", "Office cleaning contracts"],
+    q: ["Why not just rank for 'cleaning company'?", "That term is dominated by large companies and marketplace apps. Specific services and areas are more winnable for a smaller company."] },
+];
