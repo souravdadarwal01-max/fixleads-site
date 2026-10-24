@@ -25,15 +25,11 @@ export default function BlogIndex() {
           <p className="lead">Straightforward advice on websites, pricing and local visibility—without the jargon.</p>
           <div className="blog-index-tags"><span>Website design</span><span>Local SEO</span><span>Business growth</span></div>
         </div>
-        <img className="blog-index-hero-image" src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=1200&q=85" alt="Website analytics dashboard on a laptop, illustrating digital growth and website performance" width="1000" height="720" fetchPriority="high" />
       </div>
     </section>
     <section className="sec"><div className="wrap">
       <div className="blog-list-heading"><div><p className="cap">THE LATEST GUIDE</p><h2>Ideas you can put into practice</h2></div><p>Clear, practical reading for owners of local service businesses.</p></div>
       <div className="blog-grid">{posts.map(post => <article className="blog-card blog-featured-card" key={post.slug}>
-        <Link className="blog-card-image-link" href={`/blog/${post.slug}`} aria-label={`Read ${post.title}`}>
-          <img className="blog-card-image" src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=1000&q=85" alt="Business analytics charts on a screen" width="1000" height="620" loading="lazy" />
-        </Link>
         <div className="blog-card-content">
           <p className="blog-meta">{post.category} <span>·</span> {post.readTime}</p>
           <h2><Link href={`/blog/${post.slug}`}>{post.title}</Link></h2>
