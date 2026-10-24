@@ -45,6 +45,7 @@ export default function Root({ children }) {
             </Link>
             <nav className="main-nav" aria-label="Main navigation">
               <Link href="/industries">Industries</Link>
+              <Link href="/work">Our work</Link>
               <Link href="/how-it-works">How it works</Link>
               <Link href="/pricing">Pricing</Link>
               <Link href="/blog">Blog</Link>
@@ -55,6 +56,7 @@ export default function Root({ children }) {
               <summary aria-label="Open navigation menu"><span className="menu-icon" aria-hidden="true"><i></i><i></i><i></i></span><span className="menu-label">Menu</span></summary>
               <nav className="mobile-menu-panel" aria-label="Mobile navigation">
                 <Link href="/industries">Industries</Link>
+                <Link href="/work">Our work</Link>
                 <Link href="/how-it-works">How it works</Link>
                 <Link href="/pricing">Pricing</Link>
                 <Link href="/blog">Blog</Link>
@@ -83,6 +85,7 @@ export default function Root({ children }) {
               <ul className="footer-links">
                 <li><Link href="/">Home</Link></li>
                 <li><Link href="/industries">All industries</Link></li>
+                <li><Link href="/work">Concept portfolio</Link></li>
                 <li><Link href="/how-it-works">How it works</Link></li>
                 <li><Link href="/pricing">Website packages</Link></li>
                 <li><Link href="/blog">Guides & insights</Link></li>
