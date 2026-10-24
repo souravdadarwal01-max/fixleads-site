@@ -28,7 +28,8 @@ const articleImages = {
 "ae-vs-com-domain-uae": { url: "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=1400&q=85", alt: "Business owner comparing online brand options on a laptop" },
 "how-long-website-build-dubai": { url: "https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?auto=format&fit=crop&w=1400&q=85", alt: "Website design workflow on a laptop at a work desk" }
 };
-\nconst externalRefs = [
+
+const externalRefs = [
 ["Google's SEO Starter Guide","https://developers.google.com/search/docs/fundamentals/seo-starter-guide"],
 ["Google's helpful content guidance","https://developers.google.com/search/docs/fundamentals/creating-helpful-content"],
 ["Core Web Vitals overview","https://web.dev/articles/vitals"]
