@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { SITE, wa } from "../../lib/site";
 
-export function MarketingHero({ eyebrow, title, lead, image, imageAlt, bullets = [], cta = "Request a free website review" }) {
+export function MarketingHero({ eyebrow, title, lead, image, imageAlt, bullets = [], cta = "Request a free website review", secondaryHref = "/pricing" }) {
   return (
     <section className="marketing-hero">
       <div className="wrap marketing-hero-grid">
@@ -12,7 +12,7 @@ export function MarketingHero({ eyebrow, title, lead, image, imageAlt, bullets =
           <p className="marketing-lead">{lead}</p>
           <div className="marketing-actions">
             <a className="btn" href={wa(`Hi FixLeads Studio, I'd like a free website review. Please advise on ${title.toLowerCase()} for my UAE business.`)} target="_blank" rel="noopener noreferrer">{cta} <span aria-hidden="true">↗</span></a>
-            <Link className="btn ghost" href="/pricing">View packages</Link>
+            <Link className="btn ghost" href={secondaryHref}>View packages</Link>
           </div>
           {bullets.length > 0 && <div className="marketing-proof">{bullets.map((item) => <span key={item}>{item}</span>)}</div>}
         </div>
