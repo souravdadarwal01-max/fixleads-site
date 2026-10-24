@@ -13,13 +13,13 @@ export const metadata = {
     description,
     type: "article",
     url: "/blog/website-design-cost-dubai",
-    images: [{ url: "/images/website-design-cost-dubai.jpg", alt: "Dubai skyline representing website design costs for UAE businesses" }],
+    images: [{ url: "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?auto=format&fit=crop&w=1400&q=85", alt: "Dubai skyline representing website design costs for UAE businesses" }],
   },
   twitter: {
     card: "summary_large_image",
     title,
     description,
-    images: ["/images/website-design-cost-dubai.jpg"],
+    images: ["https://images.unsplash.com/photo-1512453979798-5ea266f8880c?auto=format&fit=crop&w=1400&q=85"],
   },
 };
 
@@ -45,7 +45,7 @@ export default function WebsiteDesignCostDubai() {
       "@type": "Article",
       headline: title,
       description,
-      image: [`${SITE.url}/images/website-design-cost-dubai.jpg`],
+      image: ["https://images.unsplash.com/photo-1512453979798-5ea266f8880c?auto=format&fit=crop&w=1400&q=85"],
       datePublished: "2026-10-24",
       dateModified: "2026-10-24",
       author: { "@type": "Organization", name: SITE.name, url: SITE.url },
