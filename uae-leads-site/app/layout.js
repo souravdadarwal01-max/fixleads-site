@@ -82,6 +82,7 @@ export default function Root({ children }) {
               <h2 className="footer-heading">Explore</h2>
               <ul className="footer-links">
                 <li><Link href="/">Home</Link></li>
+                <li><Link href="/industries">All industries</Link></li>
                 <li><Link href="/how-it-works">How it works</Link></li>
                 <li><Link href="/pricing">Website packages</Link></li>
                 <li><Link href="/blog">Guides & insights</Link></li>
