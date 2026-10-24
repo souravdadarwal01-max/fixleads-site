@@ -1,13 +1,19 @@
 import Link from "next/link";
 import { SITE, wa } from "../../lib/site";
 
-const posts = [{
-  slug: "website-design-cost-dubai",
-  title: "Website Design Cost in Dubai (2026): Prices, Packages & Budget",
-  description: "Compare Dubai website design price ranges, ongoing costs, SEO essentials and a practical checklist for choosing a website package.",
-  category: "Website design",
-  readTime: "8 min read",
-}];
+const posts = [
+  { slug: "website-design-uae-service-businesses", title: "Website Design for UAE Service Businesses: Costs, Pages and What to Ask Before You Hire (2026)", description: "A practical guide to website planning, budgets, service pages and SEO for UAE service businesses.", category: "Website design", readTime: "12 min read" },
+  { slug: "small-business-website-cost-uae", title: "How Much Does a Small Business Website Cost in the UAE?", description: "Understand website build fees and ongoing costs for a UAE small business.", category: "Website pricing", readTime: "10 min read" },
+  { slug: "pages-service-company-website", title: "What Pages Does a Service Company Website Need?", description: "A practical page-by-page website structure for service companies.", category: "Website planning", readTime: "10 min read" },
+  { slug: "landing-page-vs-website-uae", title: "Landing Page or Full Website: What a New UAE Service Business Needs", description: "Choose a landing page or full website based on customer journey and growth plans.", category: "Website planning", readTime: "9 min read" },
+  { slug: "web-design-quote-checklist-dubai", title: "Website Design Quote Checklist: 15 Questions to Ask a Dubai Agency", description: "Compare website proposals and clarify scope, SEO, ownership and support.", category: "Hiring a web designer", readTime: "10 min read" },
+  { slug: "freelancer-vs-agency-website-dubai", title: "Freelancer, Agency or DIY Builder: Which Is Right for a UAE Business Website?", description: "Compare website builders, freelancers and agencies by cost, skills and support.", category: "Choosing a provider", readTime: "10 min read" },
+  { slug: "website-maintenance-cost-uae", title: "Website Maintenance Cost in the UAE: What You Pay After Launch", description: "Learn what maintenance covers and how to choose website support.", category: "Website maintenance", readTime: "9 min read" },
+  { slug: "domain-hosting-email-uae-business", title: "Domain, Hosting and Business Email for a UAE Website: What to Buy", description: "Understand domains, hosting, DNS and business email before launch.", category: "Website essentials", readTime: "10 min read" },
+  { slug: "ae-vs-com-domain-uae", title: ".ae or .com? Choosing a Domain for a UAE Business", description: "Compare domain extensions by audience, brand fit, eligibility and cost.", category: "Domains", readTime: "9 min read" },
+  { slug: "how-long-website-build-dubai", title: "How Long Does It Take to Build a Business Website in Dubai?", description: "A realistic website project timeline from discovery to launch.", category: "Website planning", readTime: "9 min read" },
+  { slug: "website-design-cost-dubai", title: "Website Design Cost in Dubai (2026): Prices, Packages & Budget", description: "Compare Dubai website design price ranges, ongoing costs, SEO essentials and a practical checklist for choosing a website package.", category: "Website design", readTime: "8 min read" }
+];
 
 export const metadata = {
   title: "Website Design & Local SEO Guides for UAE Businesses",
