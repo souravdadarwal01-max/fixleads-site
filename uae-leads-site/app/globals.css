@@ -359,3 +359,21 @@ html{scroll-padding-top:110px}
 .ac-demo-back span{color:var(--slate)}
 @media(max-width:850px){.work-hero-grid,.work-truth-grid,.ac-demo-hero-grid,.ac-demo-coverage-grid{grid-template-columns:1fr}.work-project-grid,.ac-demo-service-grid{grid-template-columns:1fr 1fr}.ac-demo-visual{min-height:350px}.ac-demo-bottom-inner{align-items:flex-start;flex-direction:column}.work-hero-grid,.ac-demo-hero-grid{gap:32px}}
 @media(max-width:560px){.work-project-grid,.ac-demo-service-grid{grid-template-columns:1fr}.work-hero-grid,.ac-demo-hero-grid{padding-top:44px;padding-bottom:44px}.work-project-art{min-height:205px}.ac-demo-visual{min-height:320px}.ac-demo-strip-inner{align-items:flex-start;flex-direction:column;gap:5px}.demo-notice .wrap{align-items:flex-start}.demo-notice a{margin-left:0}.ac-demo-trust{flex-direction:column;gap:6px}}
+
+
+/* Real-world HVAC photography for the AC concept demo */
+.ac-demo-visual{isolation:isolate;background:#123c48}
+.ac-demo-hero-photo{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center 42%;z-index:-2}
+.ac-photo-shade{position:absolute;inset:0;background:linear-gradient(180deg,rgba(9,32,43,.02) 25%,rgba(9,32,43,.86) 100%);z-index:-1}
+.ac-visual-caption{z-index:1}
+.ac-visual-badge{z-index:2}
+.ac-demo-service-card{padding:0;overflow:hidden;display:flex;flex-direction:column}
+.ac-service-photo-wrap{height:190px;position:relative;overflow:hidden;background:#dce9e8}
+.ac-service-photo{display:block;width:100%;height:100%;object-fit:cover;transition:transform .3s ease}
+.ac-demo-service-card:hover .ac-service-photo{transform:scale(1.035)}
+.ac-service-photo-wrap>span{position:absolute;left:15px;top:15px;display:grid;place-items:center;width:36px;height:36px;border-radius:9px;background:rgba(255,255,255,.94);color:#126b61;font-weight:900;font-size:.8rem}
+.ac-demo-service-card h3,.ac-demo-service-card p,.ac-demo-service-card>a{margin-left:22px;margin-right:22px}
+.ac-demo-service-card h3{margin-top:21px}
+.ac-demo-service-card p{flex:1}
+.ac-demo-service-card>a{margin-bottom:24px}
+@media(max-width:560px){.ac-service-photo-wrap{height:210px}}
