@@ -50,6 +50,17 @@ export default function Root({ children }) {
               <Link href="/#faq">FAQ</Link>
               <a className="btn nav-cta" href={wa("Hi, I'd like a free website review for my UAE service business.")} target="_blank" rel="noopener noreferrer">Free website review <span aria-hidden="true">↗</span></a>
             </nav>
+            <details className="mobile-menu">
+              <summary aria-label="Open navigation menu"><span className="menu-icon" aria-hidden="true"><i></i><i></i><i></i></span><span className="menu-label">Menu</span></summary>
+              <nav className="mobile-menu-panel" aria-label="Mobile navigation">
+                <Link href="/#niches">Industries</Link>
+                <Link href="/#how-it-works">How it works</Link>
+                <Link href="/#pricing">Pricing</Link>
+                <Link href="/blog">Blog</Link>
+                <Link href="/#faq">FAQ</Link>
+                <a className="btn" href={wa("Hi, I'd like a free website review for my UAE service business.")} target="_blank" rel="noopener noreferrer">Free website review ↗</a>
+              </nav>
+            </details>
           </div>
         </header>
         <main>{children}</main>
