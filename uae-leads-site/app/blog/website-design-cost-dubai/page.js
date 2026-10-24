@@ -39,6 +39,7 @@ export default function WebsiteDesignCostDubai() {
         <h1>{title}</h1>
         <p className="lead">A practical way to estimate your budget, compare quotes and understand what you are paying for when commissioning a business website in Dubai.</p>
         <p className="blog-meta">Updated October 24, 2026 · 7 min read</p>
+        <img src="https://images.unsplash.com/photo-1512453979798-5ea266f8880c?auto=format&fit=crop&w=1400&q=85" alt="Dubai skyline at dusk, illustrating the local business website market" className="blog-hero-image" width="1400" height="900" fetchPriority="high" />
       </div></section>
       <section className="sec"><div className="wrap narrow blog-article">
         <p><strong>Short answer:</strong> website design prices vary with the number of pages, the amount of custom design, content needs, integrations and after-launch support. The ranges below are planning estimates—not an audited market average or a guaranteed quote. Ask providers to confirm exactly what is included.</p>
