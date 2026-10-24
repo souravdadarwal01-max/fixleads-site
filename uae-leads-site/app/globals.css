@@ -244,7 +244,7 @@ html{scroll-padding-top:110px}
 
 /* Organised blog index with a simple, relevant editorial image */
 .blog-index-hero{padding:clamp(42px,7vw,78px) 0;background:linear-gradient(135deg,var(--salt),#fff 65%,#e5f0f0)}
-.blog-index-hero-grid{display:grid;grid-template-columns:1.05fr .95fr;align-items:center;gap:clamp(28px,5vw,60px)}
+.blog-index-hero-grid{display:grid;grid-template-columns:minmax(0,900px);align-items:center;gap:clamp(28px,5vw,60px)}
 .blog-index-intro h1{max-width:720px;margin:.25em 0 .35em}
 .blog-index-intro .lead{margin-bottom:0}
 .blog-index-hero-image{display:block;width:100%;height:clamp(250px,32vw,390px);object-fit:cover;border-radius:20px;border:1px solid var(--line);box-shadow:0 18px 44px rgba(16,38,63,.12)}
@@ -253,12 +253,12 @@ html{scroll-padding-top:110px}
 .blog-list-heading{display:flex;justify-content:space-between;align-items:end;gap:24px;margin-bottom:26px}
 .blog-list-heading h2{margin-bottom:0}
 .blog-list-heading>p{max-width:360px;margin:0;color:var(--slate)}
-.blog-featured-card{padding:0;overflow:hidden;display:flex;flex-direction:column}
+.blog-featured-card{padding:0;overflow:hidden;display:flex;flex-direction:column;max-width:900px}
 .blog-card-image-link{display:block;overflow:hidden;background:var(--salt)}
 .blog-card-image{display:block;width:100%;height:230px;object-fit:cover;transition:transform .25s ease}
 .blog-card-image-link:hover .blog-card-image{transform:scale(1.025)}
 .blog-card-content{padding:26px;display:flex;flex-direction:column;align-items:flex-start;flex:1}
 .blog-card-content>p:not(.blog-meta){color:var(--slate)}
 .blog-card-content .blog-read{margin-top:auto;padding-top:8px}
-@media(max-width:800px){.blog-index-hero-grid{grid-template-columns:1fr}.blog-index-hero-image{height:250px}.blog-list-heading{align-items:flex-start;flex-direction:column;gap:8px}.blog-card-image{height:205px}.blog-card-content{padding:22px}}
+@media(max-width:800px){.blog-index-hero-grid{grid-template-columns:1fr}.blog-list-heading{align-items:flex-start;flex-direction:column;gap:8px}.blog-card-content{padding:22px}}
 @media(prefers-reduced-motion:reduce){.blog-card-image{transition:none}}
