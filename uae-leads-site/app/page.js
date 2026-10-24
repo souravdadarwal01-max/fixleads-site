@@ -84,7 +84,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="sec approach-section">
+      <section className="sec approach-section" id="how-it-works">
         <div className="wrap approach-grid">
           <div className="approach-heading"><p className="eyebrow">A PRACTICAL PROCESS</p><h2>Know what you’re getting before we build.</h2><p className="muted">Straightforward communication, agreed deliverables and a clear route from first conversation to launch.</p><a className="text-link" href={wa("Hi FixLeads Studio, I'd like to discuss a website project for my UAE business.")} target="_blank" rel="noopener noreferrer">Talk through your project <span>↗</span></a></div>
           <div className="process-list">{process.map(([number, title, text]) => <article className="process-item" key={number}><span className="process-number">{number}</span><div><h3>{title}</h3><p>{text}</p></div></article>)}</div>
