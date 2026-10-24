@@ -3,10 +3,10 @@ import { SITE, wa } from "../../lib/site";
 
 const posts = [{
   slug: "website-design-cost-dubai",
-  title: "How Much Does Website Design Cost in Dubai? (2026 Guide)",
-  description: "A practical guide to website design costs in Dubai, what affects pricing, and how to choose the right scope for your business.",
+  title: "Website Design Cost in Dubai (2026): Prices, Packages & Budget",
+  description: "Compare Dubai website design price ranges, ongoing costs, SEO essentials and a practical checklist for choosing a website package.",
   category: "Website design",
-  readTime: "7 min read",
+  readTime: "8 min read",
 }];
 
 export const metadata = {
