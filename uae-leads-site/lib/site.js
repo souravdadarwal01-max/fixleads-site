@@ -3,7 +3,7 @@ export const SITE = {
   name: "FixLeads Studio",
   url: "https://fixleadsstudio.com",
   whatsapp: "917023829009", // India country code +91, digits only
-  email: "hello@fixleadsstudio.com", // set this mailbox up before launch
+  email: "hellofixleadsstudio@gmail.com",
   plans: [
     { name: "Launch", price: "AED 2,500", note: "one-time", items: ["Up to 3 pages", "Call and WhatsApp buttons", "Mobile-first build", "Basic on-page SEO"] },
     { name: "Growth", price: "AED 5,500", note: "one-time", items: ["Up to 8 pages, one per service", "Local keyword research", "Schema markup and enquiry tracking", "Search Console and GA4 setup"] },
