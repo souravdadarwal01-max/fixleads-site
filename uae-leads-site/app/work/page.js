@@ -1,0 +1,28 @@
+import Link from "next/link";
+import { SITE, wa } from "../../lib/site";
+
+export const metadata = {
+  title: "Website Portfolio & Concept Projects",
+  description: "Explore clearly labelled concept website designs by FixLeads Studio for UAE home-service businesses, starting with an AC maintenance demo.",
+  alternates: { canonical: "/work" },
+  openGraph: { title: "Website concepts for UAE service businesses | FixLeads Studio", description: "See how a service-specific website can present services, coverage and contact options clearly.", url: "/work", type: "website" },
+};
+
+const projects = [
+  { number: "01", name: "CoolBreeze AC Services", type: "AC maintenance · Dubai", status: "Live concept demo", summary: "A focused AC service website concept with repair and servicing options, a clear service-area message, and a WhatsApp-first enquiry path.", href: "/demos/ac-maintenance", action: "Explore the live demo", tone: "teal", tags: ["Mobile-first layout", "Service-led content", "WhatsApp CTA"] },
+  { number: "02", name: "BrightNest Cleaning", type: "Cleaning · UAE", status: "Planned concept", summary: "A proposed concept for deep cleaning, move-out cleaning and villa cleaning, with service inclusions and a quote-request journey.", href: null, action: "Concept planned", tone: "gold", tags: ["Service packages", "Quote journey", "Trust-focused layout"] },
+  { number: "03", name: "SafeShield Pest Control", type: "Pest control · UAE", status: "Planned concept", summary: "A proposed treatment-focused layout to explain common pest services, the treatment process and how a customer can request an assessment.", href: null, action: "Concept planned", tone: "blue", tags: ["Treatment pages", "Process explanation", "Booking CTA"] },
+];
+
+export default function WorkPage() {
+  return <>
+    <section className="work-hero">
+      <div className="wrap work-hero-grid">
+        <div><p className="eyebrow"><span className="eyebrow-dot" /> SELECTED CONCEPT WORK</p><h1>See how a clearer website could work for your service business.</h1><p className="premium-lead">These are illustrative concept projects—not client websites. They show how we approach service pages, mobile usability and clear enquiry paths for UAE home-service businesses.</p><div className="cta hero-actions"><a className="btn hero-primary" href={wa("Hi FixLeads Studio, I'd like to discuss a website concept for my UAE service business.")} target="_blank" rel="noopener noreferrer">Discuss your website <span aria-hidden="true">↗</span></a><Link className="btn ghost hero-secondary" href="/pricing">View packages</Link></div></div>
+        <div className="work-hero-panel"><span className="work-panel-label">OUR APPROACH</span><div className="work-panel-step"><b>01</b><span><strong>Make the service clear</strong><small>Visitors quickly understand what you offer.</small></span></div><div className="work-panel-step"><b>02</b><span><strong>Build confidence</strong><small>Useful details, service coverage and transparent next steps.</small></span></div><div className="work-panel-step"><b>03</b><span><strong>Make contact simple</strong><small>Easy-to-find call and WhatsApp actions on mobile.</small></span></div><p className="work-panel-note">No invented client results. Just a practical demonstration of the design approach.</p></div>
+      </div>
+    </section>
+    <section className="sec work-projects"><div className="wrap"><div className="section-heading"><div><p className="eyebrow">CONCEPT PROJECTS</p><h2>Ideas built around real customer journeys.</h2></div><p>Each concept uses a fictional business name and is presented for design demonstration only.</p></div><div className="work-project-grid">{projects.map((project) => <article className="work-project-card" key={project.number}><div className={`work-project-art work-art-${project.tone}`}><div className="work-browser"><span /><span /><span /><small>CONCEPT WEBSITE</small></div><div className="work-art-content"><span>{project.type}</span><strong>{project.name}</strong><i>Services · Coverage · Contact</i><div className="work-art-button">Request a quote ↗</div></div></div><div className="work-project-body"><div className="work-project-top"><span className="work-project-number">{project.number} / CONCEPT</span><span className={project.href ? "work-status live" : "work-status"}>{project.status}</span></div><h3>{project.name}</h3><p className="muted">{project.summary}</p><div className="work-tags">{project.tags.map((tag) => <span key={tag}>{tag}</span>)}</div>{project.href ? <Link className="btn hero-primary work-project-action" href={project.href}>{project.action} <span aria-hidden="true">↗</span></Link> : <span className="work-coming">{project.action}</span>}</div></article>)}</div></div></section>
+    <section className="sec alt"><div className="wrap work-truth-grid"><div><p className="eyebrow">A NOTE ON TRANSPARENCY</p><h2>Concepts are labelled honestly.</h2></div><div><p>These demonstrations are not paid client projects, and they do not represent real customer reviews, business operations or measured results. For a real project, we agree the scope and goals first, then report only work completed and outcomes that can be verified.</p><a className="text-link" href={wa("Hi FixLeads Studio, please review my website and tell me what you would improve.")} target="_blank" rel="noopener noreferrer">Request a practical website review <span>↗</span></a></div></div></section>
+  </>;
+}
