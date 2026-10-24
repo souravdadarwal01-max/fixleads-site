@@ -2,7 +2,7 @@ import Link from "next/link";
 import { MarketingHero, MarketingSection, MarketingFaq, MarketingCta, PageMetadataJsonLd } from "../components/MarketingShell";
 
 export const metadata = {
-  title: "Our Website Design Process | UAE | FixLeads Studio",
+  title: "Our Website Design Process | UAE",
   description: "See how FixLeads Studio plans, builds and checks mobile-first websites and local SEO foundations for UAE home-service businesses.",
   alternates: { canonical: "/how-it-works" },
   openGraph: { title: "How It Works | FixLeads Studio", description: "A clear process from website review to launch and measurement.", url: "https://fixleadsstudio.com/how-it-works", type: "website" },
