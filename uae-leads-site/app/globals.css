@@ -244,7 +244,7 @@ html{scroll-padding-top:110px}
 
 /* Organised blog index with a simple, relevant editorial image */
 .blog-index-hero{padding:clamp(42px,7vw,78px) 0;background:linear-gradient(135deg,var(--salt),#fff 65%,#e5f0f0)}
-.blog-index-hero-grid{display:grid;grid-template-columns:minmax(0,900px);align-items:center;gap:clamp(28px,5vw,60px)}
+.blog-index-hero-grid{display:grid;grid-template-columns:1.08fr .92fr;align-items:center;gap:clamp(28px,5vw,64px)}
 .blog-index-intro h1{max-width:720px;margin:.25em 0 .35em}
 .blog-index-intro .lead{margin-bottom:0}
 .blog-index-hero-image{display:block;width:100%;height:clamp(250px,32vw,390px);object-fit:cover;border-radius:20px;border:1px solid var(--line);box-shadow:0 18px 44px rgba(16,38,63,.12)}
