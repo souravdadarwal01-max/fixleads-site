@@ -19,7 +19,7 @@ export default function Root({ children }) {
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(ld) }} />
         <header className="bar"><div className="wrap row">
           <Link href="/" className="logo">{SITE.name}</Link>
-          <nav><Link href="/#niches">Industries</Link><Link href="/#pricing">Pricing</Link><Link href="/#faq">FAQ</Link>
+          <nav><Link href="/#niches">Industries</Link><Link href="/blog">Blog</Link><Link href="/#pricing">Pricing</Link><Link href="/#faq">FAQ</Link>
             <a className="btn sm" href={wa("Hi, I'd like a free website review.")}>Free review</a></nav>
         </div></header>
         <main>{children}</main>
