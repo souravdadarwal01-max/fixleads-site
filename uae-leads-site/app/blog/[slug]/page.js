@@ -4,13 +4,13 @@ import { SITE, wa } from "../../../lib/site";
 import { cluster } from "../../../lib/website-design-cluster";
 
 const related = {
-"website-design-uae-service-businesses":["website-design-cost-dubai","small-business-website-cost-uae","pages-service-company-website"],
+"website-design-uae-service-businesses":["local-seo-uae-service-businesses","website-design-cost-dubai","small-business-website-cost-uae","pages-service-company-website"],
 "small-business-website-cost-uae":["website-design-uae-service-businesses","website-design-cost-dubai","web-design-quote-checklist-dubai"],
-"pages-service-company-website":["website-design-uae-service-businesses","landing-page-vs-website-uae","web-design-quote-checklist-dubai"],
+"pages-service-company-website":["local-seo-uae-service-businesses","website-design-uae-service-businesses","landing-page-vs-website-uae","web-design-quote-checklist-dubai"],
 "landing-page-vs-website-uae":["website-design-uae-service-businesses","pages-service-company-website","small-business-website-cost-uae"],
-"web-design-quote-checklist-dubai":["website-design-uae-service-businesses","website-design-cost-dubai","website-maintenance-cost-uae"],
+"web-design-quote-checklist-dubai":["local-seo-uae-service-businesses","website-design-uae-service-businesses","website-design-cost-dubai","website-maintenance-cost-uae"],
 "freelancer-vs-agency-website-dubai":["website-design-uae-service-businesses","small-business-website-cost-uae","web-design-quote-checklist-dubai"],
-"website-maintenance-cost-uae":["website-design-uae-service-businesses","website-design-cost-dubai","domain-hosting-email-uae-business"],
+"website-maintenance-cost-uae":["local-seo-uae-service-businesses","website-design-uae-service-businesses","website-design-cost-dubai","domain-hosting-email-uae-business"],
 "domain-hosting-email-uae-business":["website-design-uae-service-businesses","ae-vs-com-domain-uae","website-maintenance-cost-uae"],
 "ae-vs-com-domain-uae":["website-design-uae-service-businesses","domain-hosting-email-uae-business","website-design-cost-dubai"],
 "how-long-website-build-dubai":["website-design-uae-service-businesses","landing-page-vs-website-uae","web-design-quote-checklist-dubai"]
