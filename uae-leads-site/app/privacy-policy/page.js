@@ -5,7 +5,7 @@ export const metadata = {
   title: "Privacy Policy",
   description: "How FixLeads Studio handles information submitted through its website and contact channels.",
   alternates: { canonical: "/privacy-policy" },
-  openGraph: { title: "Privacy Policy | FixLeads Studio", description: "Information about website enquiries and privacy.", url: "/privacy-policy", type: "website" },
+  openGraph: { title: "Privacy Policy | FixLeads Studio", description: "Information about website enquiries and privacy.", url: "/privacy-policy", type: "website", images: [{ url: "/opengraph-image", width: 1200, height: 630, alt: "FixLeads Studio" }] },
 };
 
 export default function PrivacyPolicyPage() {
