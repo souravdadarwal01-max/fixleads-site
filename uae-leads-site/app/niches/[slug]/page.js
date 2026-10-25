@@ -44,7 +44,7 @@ export async function generateMetadata({ params }) {
     title: n.h1,
     description: `Website design and local SEO for ${n.name.toLowerCase()} businesses across the UAE. Explore service-page planning, mobile contact journeys, service-area content and clear package pricing.`,
     alternates: { canonical: `/niches/${n.slug}` },
-    openGraph: { title: n.h1, description: `Practical website planning for ${n.name.toLowerCase()} companies in the UAE.`, url: `/niches/${n.slug}`, type: "website" }
+    openGraph: { title: n.h1, description: `Practical website planning for ${n.name.toLowerCase()} companies in the UAE.`, url: `/niches/${n.slug}`, type: "website", images: [{ url: "/opengraph-image", width: 1200, height: 630, alt: "FixLeads Studio — web design and local SEO for UAE home-service businesses" }] }
   };
 }
 
