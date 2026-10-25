@@ -91,7 +91,7 @@ gtag('config', '${process.env.NEXT_PUBLIC_GA_ID}');`
           <div className="wrap footer-grid">
             <div className="footer-brand">
               <Link href="/" className="brand footer-logo">
-                <img className="brand-mark" src="/fixleads-mark.svg" alt="" aria-hidden="true" />
+                <img className="brand-mark" src="/fixleads-mark-light.svg" alt="" aria-hidden="true" />
                 <span className="brand-copy"><strong>{SITE.name}</strong><small>Websites that win enquiries</small></span>
               </Link>
               <p>Mobile-first websites and practical local SEO for UAE home-service businesses. Built to make calls, quote requests and WhatsApp enquiries easier.</p>
