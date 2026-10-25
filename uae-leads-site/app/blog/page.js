@@ -20,6 +20,7 @@ export const metadata = {
   title: "Website Design & Local SEO Guides for UAE Businesses",
   description: "Practical website design, pricing and local SEO guides for service businesses in Dubai and across the UAE.",
   alternates: { canonical: "/blog" },
+  openGraph: { title: "Website Design & Local SEO Guides for UAE Businesses | FixLeads Studio", description: "Practical website design, pricing and local SEO guides for service businesses in Dubai and across the UAE.", url: "/blog", type: "website", images: [{ url: "/opengraph-image", width: 1200, height: 630, alt: "FixLeads Studio — web design and local SEO for UAE home-service businesses" }] },
 };
 
 export default function BlogIndex() {
