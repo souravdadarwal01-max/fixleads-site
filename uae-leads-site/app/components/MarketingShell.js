@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { SITE, wa } from "../../lib/site";
 
-export function MarketingHero({ eyebrow, title, lead, image, imageAlt, bullets = [], cta = "Request a free website review", secondaryHref = "/pricing" }) {
+export function MarketingHero({ eyebrow, title, lead, image, imageAlt, bullets = [], cta = "Request a free website review", secondaryHref = "/pricing", whatsappMessage = "Hi FixLeads Studio, I’d like to discuss a website review for my UAE service business. What information do you need from me?" }) {
   return (
     <section className="marketing-hero">
       <div className="wrap marketing-hero-grid">
@@ -11,7 +11,7 @@ export function MarketingHero({ eyebrow, title, lead, image, imageAlt, bullets =
           <h1>{title}</h1>
           <p className="marketing-lead">{lead}</p>
           <div className="marketing-actions">
-            <a className="btn" href={wa(`Hi FixLeads Studio, I'd like a free website review. Please advise on ${title.toLowerCase()} for my UAE business.`)} target="_blank" rel="noopener noreferrer">{cta} <span aria-hidden="true">↗</span></a>
+            <a className="btn" href={wa(whatsappMessage)} target="_blank" rel="noopener noreferrer">{cta} <span aria-hidden="true">↗</span></a>
             <Link className="btn ghost" href={secondaryHref}>View packages</Link>
           </div>
           {bullets.length > 0 && <div className="marketing-proof">{bullets.map((item) => <span key={item}>{item}</span>)}</div>}
@@ -51,8 +51,8 @@ export function MarketingFaq({ items, title = "Frequently asked questions", intr
   );
 }
 
-export function MarketingCta({ title = "Ready to improve your website?", text = "Tell us what your business does, which UAE areas you serve and what you want more of—calls, WhatsApp enquiries or quote requests." }) {
-  return <section className="marketing-cta"><div className="wrap marketing-cta-inner"><div><p className="eyebrow">A PRACTICAL NEXT STEP</p><h2>{title}</h2><p>{text}</p></div><a className="btn" href={wa("Hi FixLeads Studio, I'd like to discuss a website and local SEO for my UAE service business.")} target="_blank" rel="noopener noreferrer">Talk on WhatsApp ↗</a></div></section>;
+export function MarketingCta({ title = "Ready to improve your website?", text = "Tell us what your business does, which UAE areas you serve and what you want more of—calls, WhatsApp enquiries or quote requests.", whatsappMessage = "Hi FixLeads Studio, I’d like to discuss a website and local SEO for my UAE service business. Can you help me choose a practical next step?" }) {
+  return <section className="marketing-cta"><div className="wrap marketing-cta-inner"><div><p className="eyebrow">A PRACTICAL NEXT STEP</p><h2>{title}</h2><p>{text}</p></div><a className="btn" href={wa(whatsappMessage)} target="_blank" rel="noopener noreferrer">Talk on WhatsApp ↗</a></div></section>;
 }
 
 export function PageMetadataJsonLd({ title, description, path, type = "WebPage" }) {
