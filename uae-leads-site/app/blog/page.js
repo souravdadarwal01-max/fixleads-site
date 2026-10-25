@@ -2,6 +2,8 @@ import Link from "next/link";
 import { SITE, wa } from "../../lib/site";
 
 const posts = [
+  { slug: "google-business-profile-service-area-uae", title: "Google Business Profile for UAE Service-Area Businesses: Setup Checklist", description: "A practical setup checklist for UAE AC, plumbing, cleaning and pest control businesses that travel to customers.", category: "Local SEO", readTime: "9 min read" },
+  { slug: "whatsapp-quote-button-website", title: "How to Add a WhatsApp Quote Button to Your Website", description: "Set up a helpful click-to-chat CTA, prefill a quote message, test mobile behaviour and measure real enquiries.", category: "Lead generation", readTime: "9 min read" },
   { slug: "local-seo-uae-service-businesses", title: "Local SEO for UAE Service Businesses: The Complete 2026 Guide", description: "A practical guide to Google Business Profile, service pages, reviews, technical SEO and measuring local enquiries in the UAE.", category: "Local SEO", readTime: "20 min read" },
   { slug: "website-design-uae-service-businesses", title: "Website Design for UAE Service Businesses: Costs, Pages and What to Ask Before You Hire (2026)", description: "A practical guide to website planning, budgets, service pages and SEO for UAE service businesses.", category: "Website design", readTime: "12 min read" },
   { slug: "small-business-website-cost-uae", title: "How Much Does a Small Business Website Cost in the UAE?", description: "Understand website build fees and ongoing costs for a UAE small business.", category: "Website pricing", readTime: "10 min read" },
