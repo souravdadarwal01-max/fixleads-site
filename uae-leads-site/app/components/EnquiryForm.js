@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { SITE, wa } from "../../lib/site";
+import { wa } from "../../lib/site";
 
 export default function EnquiryForm() {
   const [sent, setSent] = useState(false);
@@ -18,7 +18,7 @@ export default function EnquiryForm() {
     ].join("\n");
     const text = `Hi FixLeads Studio, I'd like to enquire about your services.\n\n${body}`;
     window.open(wa(text), "_blank", "noopener,noreferrer");
-    window.location.href = `mailto:${SITE.email}?subject=${encodeURIComponent("Website enquiry — " + values.name)}&body=${encodeURIComponent(body)}`;
+
     setSent(true);
   };
   return <form className="enquiry-form" onSubmit={submit}>
@@ -36,6 +36,6 @@ export default function EnquiryForm() {
     <label className="enquiry-consent"><input type="checkbox" required /> I agree that FixLeads Studio may use these details to respond to my enquiry. See the <a href="/privacy-policy" target="_blank" rel="noreferrer">Privacy Policy</a>.</label>
     <button className="btn" type="submit">Continue to WhatsApp / email ↗</button>
     <p className="enquiry-small">This form opens WhatsApp and your email app to send the details. It does not save a submission to a website database.</p>
-    {sent && <p className="enquiry-success" role="status">Your messaging apps should have opened. Please send the prepared message to complete your enquiry.</p>}
+    {sent && <p className="enquiry-success" role="status">WhatsApp should have opened in a new tab with your details prepared. Please review and send the message to complete your enquiry. If it did not open, email us directly at hellofixleadsstudio@gmail.com.</p>}
   </form>;
 }
