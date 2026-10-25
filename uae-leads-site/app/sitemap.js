@@ -25,6 +25,8 @@ const staticPages = [
   "/blog/domain-hosting-email-uae-business",
   "/blog/ae-vs-com-domain-uae",
   "/blog/how-long-website-build-dubai",
+  "/blog/google-business-profile-service-area-uae",
+  "/blog/whatsapp-quote-button-website",
 ];
 
 export default function sitemap() {
