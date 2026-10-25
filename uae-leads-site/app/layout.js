@@ -14,8 +14,8 @@ export const metadata = {
   title: { default: `Website design for UAE home-service companies | ${SITE.name}`, template: `%s | ${SITE.name}` },
   description: "Fast mobile websites with service pages, click-to-call, WhatsApp enquiries and local SEO for AC, plumbing, pest control and cleaning companies across the UAE.",
   alternates: { canonical: "/" },
-  openGraph: { locale: "en_AE", type: "website", siteName: SITE.name, images: [{ url: "/og-image.svg", width: 1200, height: 630, alt: "FixLeads Studio — web design and local SEO for UAE home-service businesses" }] },
-  twitter: { card: "summary_large_image", title: "FixLeads Studio", description: "Web design and local SEO for UAE home-service businesses.", images: ["/og-image.svg"] },
+  openGraph: { locale: "en_AE", type: "website", siteName: SITE.name, images: [{ url: "/opengraph-image", width: 1200, height: 630, alt: "FixLeads Studio — web design and local SEO for UAE home-service businesses" }] },
+  twitter: { card: "summary_large_image", title: "FixLeads Studio", description: "Web design and local SEO for UAE home-service businesses.", images: ["/opengraph-image"] },
 };
 
 const ld = {
