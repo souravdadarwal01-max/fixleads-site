@@ -6,7 +6,7 @@ export const metadata = {
   title: "Website Design Packages & Pricing in the UAE",
   description: "Explore FixLeads Studio website design and local SEO packages for UAE home-service businesses. Clear starting prices in AED, defined scope and no ranking guarantees.",
   alternates: { canonical: "/pricing" },
-  openGraph: { title: "Website Design Packages & Pricing | FixLeads Studio", description: "Clear website packages for UAE service businesses.", url: "https://fixleadsstudio.com/pricing", type: "website" },
+  openGraph: { title: "Website Design Packages & Pricing | FixLeads Studio", description: "Clear website packages for UAE service businesses.", url: "https://fixleadsstudio.com/pricing", type: "website", images: [{ url: "/opengraph-image", width: 1200, height: 630, alt: "FixLeads Studio — web design and local SEO for UAE home-service businesses" }] },
 };
 
 const pricingFaqs = [
