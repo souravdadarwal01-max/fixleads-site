@@ -5,7 +5,7 @@ export const metadata = {
   title: "Request a Website Quote | FixLeads Studio",
   description: "Tell FixLeads Studio about your UAE service business and request a practical website design or local SEO quote.",
   alternates: { canonical: "/contact" },
-  openGraph: { title: "Contact FixLeads Studio", description: "Request a practical website review or quote for your UAE service business.", url: "/contact", type: "website" },
+  openGraph: { title: "Contact FixLeads Studio", description: "Request a practical website review or quote for your UAE service business.", url: "/contact", type: "website", images: [{ url: "/opengraph-image", width: 1200, height: 630, alt: "FixLeads Studio — web design and local SEO for UAE home-service businesses" }] },
 };
 
 export default function ContactPage() {
