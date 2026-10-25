@@ -6,7 +6,7 @@ export const metadata = {
   title: "About FixLeads Studio | UAE Service Business Websites",
   description: "Meet the approach behind FixLeads Studio: practical websites and local SEO foundations for UAE home-service businesses, delivered remotely.",
   alternates: { canonical: "/about" },
-  openGraph: { title: "About FixLeads Studio", description: "A remote website and local SEO studio focused on UAE home-service businesses.", url: "/about", type: "website" },
+  openGraph: { title: "About FixLeads Studio", description: "A remote website and local SEO studio focused on UAE home-service businesses.", url: "/about", type: "website", images: [{ url: "/opengraph-image", width: 1200, height: 630, alt: "FixLeads Studio — web design and local SEO for UAE home-service businesses" }] },
 };
 
 export default function AboutPage() {
