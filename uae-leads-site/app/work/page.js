@@ -5,7 +5,7 @@ export const metadata = {
   title: "Website Portfolio & Concept Projects",
   description: "Explore clearly labelled concept website designs by FixLeads Studio for UAE home-service businesses, starting with an AC maintenance demo.",
   alternates: { canonical: "/work" },
-  openGraph: { title: "Website concepts for UAE service businesses | FixLeads Studio", description: "See how a service-specific website can present services, coverage and contact options clearly.", url: "/work", type: "website" },
+  openGraph: { title: "Website concepts for UAE service businesses | FixLeads Studio", description: "See how a service-specific website can present services, coverage and contact options clearly.", url: "/work", type: "website", images: [{ url: "/opengraph-image", width: 1200, height: 630, alt: "FixLeads Studio — web design and local SEO for UAE home-service businesses" }] },
 };
 
 const projects = [
