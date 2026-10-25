@@ -6,7 +6,7 @@ export const metadata = {
   title: "Website Design & Local SEO FAQs for UAE Businesses",
   description: "Answers about website design costs, timelines, SEO, ownership, Arabic pages, hosting and working with FixLeads Studio for UAE home-service businesses.",
   alternates: { canonical: "/faq" },
-  openGraph: { title: "Frequently Asked Questions | FixLeads Studio", description: "Straight answers about website projects and local SEO for UAE service businesses.", url: "https://fixleadsstudio.com/faq", type: "website" },
+  openGraph: { title: "Frequently Asked Questions | FixLeads Studio", description: "Straight answers about website projects and local SEO for UAE service businesses.", url: "https://fixleadsstudio.com/faq", type: "website", images: [{ url: "/opengraph-image", width: 1200, height: 630, alt: "FixLeads Studio — web design and local SEO for UAE home-service businesses" }] },
 };
 
 const groups = [
