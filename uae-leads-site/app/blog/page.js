@@ -2,6 +2,7 @@ import Link from "next/link";
 import { SITE, wa } from "../../lib/site";
 
 const posts = [
+  { slug: "local-seo-uae-service-businesses", title: "Local SEO for UAE Service Businesses: The Complete 2026 Guide", description: "A practical guide to Google Business Profile, service pages, reviews, technical SEO and measuring local enquiries in the UAE.", category: "Local SEO", readTime: "20 min read" },
   { slug: "website-design-uae-service-businesses", title: "Website Design for UAE Service Businesses: Costs, Pages and What to Ask Before You Hire (2026)", description: "A practical guide to website planning, budgets, service pages and SEO for UAE service businesses.", category: "Website design", readTime: "12 min read" },
   { slug: "small-business-website-cost-uae", title: "How Much Does a Small Business Website Cost in the UAE?", description: "Understand website build fees and ongoing costs for a UAE small business.", category: "Website pricing", readTime: "10 min read" },
   { slug: "pages-service-company-website", title: "What Pages Does a Service Company Website Need?", description: "A practical page-by-page website structure for service companies.", category: "Website planning", readTime: "10 min read" },
