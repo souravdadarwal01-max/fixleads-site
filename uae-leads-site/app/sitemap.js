@@ -10,6 +10,7 @@ const staticPages = [
   "/faq",
   "/work",
   "/blog/website-design-cost-dubai",
+  "/blog/local-seo-uae-service-businesses",
   "/blog/website-design-uae-service-businesses",
   "/blog/small-business-website-cost-uae",
   "/blog/pages-service-company-website",
