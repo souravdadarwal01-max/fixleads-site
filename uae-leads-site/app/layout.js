@@ -14,7 +14,8 @@ export const metadata = {
   title: { default: `Website design for UAE home-service companies | ${SITE.name}`, template: `%s | ${SITE.name}` },
   description: "Fast mobile websites with service pages, click-to-call, WhatsApp enquiries and local SEO for AC, plumbing, pest control and cleaning companies across the UAE.",
   alternates: { canonical: "/" },
-  openGraph: { locale: "en_AE", type: "website", siteName: SITE.name },
+  openGraph: { locale: "en_AE", type: "website", siteName: SITE.name, images: [{ url: "/og-image.svg", width: 1200, height: 630, alt: "FixLeads Studio — web design and local SEO for UAE home-service businesses" }] },
+  twitter: { card: "summary_large_image", title: "FixLeads Studio", description: "Web design and local SEO for UAE home-service businesses.", images: ["/og-image.svg"] },
 };
 
 const ld = {
@@ -67,6 +68,8 @@ gtag('config', '${process.env.NEXT_PUBLIC_GA_ID}');`
               <Link href="/pricing">Pricing</Link>
               <Link href="/blog">Blog</Link>
               <Link href="/faq">FAQ</Link>
+              <Link href="/about">About</Link>
+              <Link href="/contact">Contact</Link>
               <a className="btn nav-cta" href={wa("Hi, I'd like a free website review for my UAE service business.")} target="_blank" rel="noopener noreferrer">Free website review <span aria-hidden="true">↗</span></a>
             </nav>
             <details className="mobile-menu">
@@ -78,6 +81,8 @@ gtag('config', '${process.env.NEXT_PUBLIC_GA_ID}');`
                 <Link href="/pricing">Pricing</Link>
                 <Link href="/blog">Blog</Link>
                 <Link href="/faq">FAQ</Link>
+                <Link href="/about">About</Link>
+                <Link href="/contact">Contact</Link>
                 <a className="btn" href={wa("Hi, I'd like a free website review for my UAE service business.")} target="_blank" rel="noopener noreferrer">Free website review ↗</a>
               </nav>
             </details>
@@ -107,6 +112,8 @@ gtag('config', '${process.env.NEXT_PUBLIC_GA_ID}');`
                 <li><Link href="/pricing">Website packages</Link></li>
                 <li><Link href="/blog">Guides & insights</Link></li>
                 <li><Link href="/faq">FAQs</Link></li>
+                <li><Link href="/about">About FixLeads Studio</Link></li>
+                <li><Link href="/contact">Contact & quote</Link></li>
               </ul>
             </div>
             <div>
@@ -121,6 +128,7 @@ gtag('config', '${process.env.NEXT_PUBLIC_GA_ID}');`
               <a href={`mailto:${SITE.email}`}>{SITE.email}</a>
               <p><a href={wa("Hi, I'd like a free website review for my UAE service business.")} target="_blank" rel="noopener noreferrer">WhatsApp · Free website review</a></p>
               <p className="footer-muted">Remote studio · UAE-focused service</p>
+              <p><Link href="/privacy-policy">Privacy Policy</Link> · <Link href="/terms">Terms</Link></p>
             </div>
           </div>
           <div className="wrap footer-bottom">
