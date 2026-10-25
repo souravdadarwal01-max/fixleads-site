@@ -5,7 +5,7 @@ export const metadata = {
   title: "Our Website Design Process | UAE",
   description: "See how FixLeads Studio plans, builds and checks mobile-first websites and local SEO foundations for UAE home-service businesses.",
   alternates: { canonical: "/how-it-works" },
-  openGraph: { title: "How It Works | FixLeads Studio", description: "A clear process from website review to launch and measurement.", url: "https://fixleadsstudio.com/how-it-works", type: "website" },
+  openGraph: { title: "How It Works | FixLeads Studio", description: "A clear process from website review to launch and measurement.", url: "https://fixleadsstudio.com/how-it-works", type: "website", images: [{ url: "/opengraph-image", width: 1200, height: 630, alt: "FixLeads Studio — web design and local SEO for UAE home-service businesses" }] },
 };
 
 const steps = [
