@@ -5,7 +5,7 @@ export const metadata = {
   title: "Terms of Service",
   description: "General terms for using the FixLeads Studio website and discussing website projects.",
   alternates: { canonical: "/terms" },
-  openGraph: { title: "Terms of Service | FixLeads Studio", description: "Website use and project-scope information.", url: "/terms", type: "website" },
+  openGraph: { title: "Terms of Service | FixLeads Studio", description: "Website use and project-scope information.", url: "/terms", type: "website", images: [{ url: "/opengraph-image", width: 1200, height: 630, alt: "FixLeads Studio" }] },
 };
 
 export default function TermsPage() {
