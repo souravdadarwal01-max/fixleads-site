@@ -6,7 +6,7 @@ export const metadata = {
   title: "Industries We Help | UAE Home-Service Website Design",
   description: "Website design and local SEO for AC maintenance, plumbing, cleaning, pest control and other UAE home-service companies. Explore industry-specific pages.",
   alternates: { canonical: "/industries" },
-  openGraph: { title: "Industries We Help | FixLeads Studio", description: "Practical websites and local SEO for UAE home-service companies.", url: "https://fixleadsstudio.com/industries", type: "website" },
+  openGraph: { title: "Industries We Help | FixLeads Studio", description: "Practical websites and local SEO for UAE home-service companies.", url: "https://fixleadsstudio.com/industries", type: "website", images: [{ url: "/opengraph-image", width: 1200, height: 630, alt: "FixLeads Studio — web design and local SEO for UAE home-service businesses" }] },
 };
 
 const moreIndustries = [
