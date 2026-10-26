@@ -27,6 +27,8 @@ const staticPages = [
   "/blog/how-long-website-build-dubai",
   "/blog/google-business-profile-service-area-uae",
   "/blog/whatsapp-quote-button-website",
+  "/blog/more-google-reviews-uae",
+  "/blog/service-area-pages-dubai-seo",
 ];
 
 export default function sitemap() {
