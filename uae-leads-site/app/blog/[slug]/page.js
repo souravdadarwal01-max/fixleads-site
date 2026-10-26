@@ -25,7 +25,7 @@ const articleImages = {
 "freelancer-vs-agency-website-dubai": { url: "https://images.unsplash.com/photo-1521737711867-e3b97375f902?auto=format&fit=crop&w=1400&q=85", alt: "Creative team collaborating on a digital project" },
 "website-maintenance-cost-uae": { url: "https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=1400&q=85", alt: "Team maintaining and reviewing digital work on computers" },
 "domain-hosting-email-uae-business": { url: "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&w=1400&q=85", alt: "Server infrastructure used to host websites and online services" },
-"ae-vs-com-domain-uae": { url: "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=1400&q=85", alt: "Business owner comparing online brand options on a laptop" },
+"ae-vs-com-domain-uae": { url: "https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1400&q=85", alt: "Modern office workspace representing domain and hosting choices" },
 "how-long-website-build-dubai": { url: "https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?auto=format&fit=crop&w=1400&q=85", alt: "Website design workflow on a laptop at a work desk" }
 };
 
