@@ -3,7 +3,7 @@ import { SITE, wa } from "../../../lib/site";
 
 const title = "How to Add a WhatsApp Quote Button to Your Website";
 const description = "Learn how UAE service businesses can add a useful WhatsApp quote button, prefill a clear message, test mobile behaviour and measure enquiries.";
-const image = "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=1400&q=85";
+const image = "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?auto=format&fit=crop&w=1400&q=85";
 const url = SITE.url + "/blog/whatsapp-quote-button-website";
 const faqs = [
 ["What link format opens a WhatsApp chat?","WhatsApp documents click-to-chat links using wa.me and an international-format phone number without plus signs, spaces or punctuation. Check the official documentation for the latest rules."],
@@ -16,9 +16,9 @@ const ld = [
 {"@context":"https://schema.org","@type":"BreadcrumbList",itemListElement:[{"@type":"ListItem",position:1,name:"Home",item:SITE.url},{"@type":"ListItem",position:2,name:"Blog",item:SITE.url+"/blog"},{"@type":"ListItem",position:3,name:title,item:url}]},
 {"@context":"https://schema.org","@type":"FAQPage",mainEntity:faqs.map(([q,a])=>({"@type":"Question",name:q,acceptedAnswer:{"@type":"Answer",text:a}}))}
 ];
-export const metadata = { title, description, alternates:{canonical:"/blog/whatsapp-quote-button-website"}, openGraph:{title,description,type:"article",url:"/blog/whatsapp-quote-button-website",images:[{url:image,alt:"Business owner planning a mobile website enquiry journey"}]}, twitter:{card:"summary_large_image",title,description,images:[image]} };
+export const metadata = { title, description, alternates:{canonical:"/blog/whatsapp-quote-button-website"}, openGraph:{title,description,type:"article",url:"/blog/whatsapp-quote-button-website",images:[{url:image,alt:"Customer using a mobile phone to contact a service business"}]}, twitter:{card:"summary_large_image",title,description,images:[image]} };
 export default function Article(){
-return <><script type="application/ld+json" dangerouslySetInnerHTML={{__html:JSON.stringify(ld)}}/><article><section className="hero"><div className="wrap narrow"><p className="cap"><Link href="/">HOME</Link> · <Link href="/blog">BLOG</Link> · LEAD GENERATION</p><h1>{title}</h1><p className="lead">{description}</p><p className="blog-meta">Published October 25, 2026 · Practical implementation guide</p><img src={image} alt="Business owner planning a mobile website enquiry journey" className="blog-hero-image" width="1400" height="900" fetchPriority="high"/></div></section><section className="sec"><div className="wrap narrow blog-article">
+return <><script type="application/ld+json" dangerouslySetInnerHTML={{__html:JSON.stringify(ld)}}/><article><section className="hero"><div className="wrap narrow"><p className="cap"><Link href="/">HOME</Link> · <Link href="/blog">BLOG</Link> · LEAD GENERATION</p><h1>{title}</h1><p className="lead">{description}</p><p className="blog-meta">Published October 25, 2026 · Practical implementation guide</p><img src={image} alt="Customer using a mobile phone to contact a service business" className="blog-hero-image" width="1400" height="900" fetchPriority="high"/></div></section><section className="sec"><div className="wrap narrow blog-article">
 <p><strong>The goal:</strong> make it easy for a potential customer to start a useful conversation without hunting for your phone number. For an AC maintenance, plumbing, cleaning or pest-control company, a well-placed WhatsApp quote button can reduce friction—provided the business can respond reliably and the button does not replace essential service information.</p>
 <p>A button click is only the start of the journey. Visitors still need to understand the service, know whether you cover their area and have a clear expectation of what happens next. Use WhatsApp as one contact option alongside a visible phone number or enquiry form where appropriate.</p>
 <h2>1. Choose where the button belongs</h2>
