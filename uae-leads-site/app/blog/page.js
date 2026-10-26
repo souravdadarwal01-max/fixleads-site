@@ -2,6 +2,8 @@ import Link from "next/link";
 import { SITE, wa } from "../../lib/site";
 
 const posts = [
+  { slug: "more-google-reviews-uae", title: "How to Get More Google Reviews for a UAE Service Business", description: "A policy-aware process for requesting honest reviews, sharing the right link and responding professionally.", category: "Local SEO", readTime: "10 min read" },
+  { slug: "service-area-pages-dubai-seo", title: "Service Pages and Area Pages: How to Structure a Dubai Local SEO Website", description: "Decide when to build service pages or area pages, and avoid thin location pages that add little value.", category: "Local SEO", readTime: "11 min read" },
   { slug: "google-business-profile-service-area-uae", title: "Google Business Profile for UAE Service-Area Businesses: Setup Checklist", description: "A practical setup checklist for UAE AC, plumbing, cleaning and pest control businesses that travel to customers.", category: "Local SEO", readTime: "9 min read" },
   { slug: "whatsapp-quote-button-website", title: "How to Add a WhatsApp Quote Button to Your Website", description: "Set up a helpful click-to-chat CTA, prefill a quote message, test mobile behaviour and measure real enquiries.", category: "Lead generation", readTime: "9 min read" },
   { slug: "local-seo-uae-service-businesses", title: "Local SEO for UAE Service Businesses: The Complete 2026 Guide", description: "A practical guide to Google Business Profile, service pages, reviews, technical SEO and measuring local enquiries in the UAE.", category: "Local SEO", readTime: "20 min read" },
