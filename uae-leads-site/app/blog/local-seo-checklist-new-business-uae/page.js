@@ -18,7 +18,7 @@ const ld = [
   {"@context":"https://schema.org","@type":"FAQPage",mainEntity:faqs.map(([q,a])=>({"@type":"Question",name:q,acceptedAnswer:{"@type":"Answer",text:a}}))}
 ];
 export const metadata = {
-  title: "UAE Local SEO Checklist for New Service Businesses | FixLeads Studio",
+  title: "Local SEO Checklist for UAE Service Businesses: First 30 Days",
   description,
   alternates: { canonical: "/blog/local-seo-checklist-new-business-uae" },
   openGraph: { title, description, type: "article", url: "/blog/local-seo-checklist-new-business-uae", images: [{ url: image, alt: "Small business team planning a practical local marketing checklist" }] },
