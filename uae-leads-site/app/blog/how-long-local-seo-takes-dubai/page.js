@@ -3,7 +3,7 @@ import { SITE, wa } from "../../../lib/site";
 
 const title = "How Long Does Local SEO Take in Dubai? Realistic Timelines";
 const description = "Understand the difference between crawling, indexing and ranking, what to review in the first weeks, and how Dubai service businesses can measure local SEO progress without guarantees.";
-const image = "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=1400&q=85";
+const image = "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=1400&q=85";
 const url = SITE.url + "/blog/how-long-local-seo-takes-dubai";
 const faqs = [
   ["How long does local SEO take in Dubai?", "There is no universal timeline. Google says changes can take from a few hours to several months to be reflected in Search, and recommends waiting a few weeks to assess the effect of changes. Competitive local visibility can take longer and is not guaranteed."],
