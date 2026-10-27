@@ -18,7 +18,7 @@ const ld = [
   {"@context":"https://schema.org","@type":"FAQPage",mainEntity:faqs.map(([q,a])=>({"@type":"Question",name:q,acceptedAnswer:{"@type":"Answer",text:a}}))}
 ];
 export const metadata = {
-  title: "How Long Does Local SEO Take in Dubai? | FixLeads Studio",
+  title: "How Long Does Local SEO Take in Dubai?",
   description,
   alternates: { canonical: "/blog/how-long-local-seo-takes-dubai" },
   openGraph: { title, description, type: "article", url: "/blog/how-long-local-seo-takes-dubai", images: [{ url: image, alt: "Website analytics dashboard used to review search performance over time" }] },
