@@ -29,6 +29,8 @@ const staticPages = [
   "/blog/whatsapp-quote-button-website",
   "/blog/more-google-reviews-uae",
   "/blog/service-area-pages-dubai-seo",
+  "/blog/local-seo-checklist-new-business-uae",
+  "/blog/how-long-local-seo-takes-dubai",
 ];
 
 export default function sitemap() {
