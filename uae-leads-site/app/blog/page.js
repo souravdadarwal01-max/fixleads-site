@@ -2,6 +2,8 @@ import Link from "next/link";
 import { SITE, wa } from "../../lib/site";
 
 const posts = [
+  { slug: "local-seo-checklist-new-business-uae", title: "Local SEO Checklist for a New Service Business in the UAE: First 30 Days", description: "A practical 30-day local SEO checklist for new UAE AC, plumbing, cleaning and pest control businesses.", category: "Local SEO", readTime: "12 min read" },
+  { slug: "how-long-local-seo-takes-dubai", title: "How Long Does Local SEO Take in Dubai? Realistic Timelines", description: "Separate crawling, indexing and ranking, and learn what to measure without relying on guaranteed timelines.", category: "Local SEO", readTime: "10 min read" },
   { slug: "more-google-reviews-uae", title: "How to Get More Google Reviews for a UAE Service Business", description: "A policy-aware process for requesting honest reviews, sharing the right link and responding professionally.", category: "Local SEO", readTime: "10 min read" },
   { slug: "service-area-pages-dubai-seo", title: "Service Pages and Area Pages: How to Structure a Dubai Local SEO Website", description: "Decide when to build service pages or area pages, and avoid thin location pages that add little value.", category: "Local SEO", readTime: "11 min read" },
   { slug: "google-business-profile-service-area-uae", title: "Google Business Profile for UAE Service-Area Businesses: Setup Checklist", description: "A practical setup checklist for UAE AC, plumbing, cleaning and pest control businesses that travel to customers.", category: "Local SEO", readTime: "9 min read" },
