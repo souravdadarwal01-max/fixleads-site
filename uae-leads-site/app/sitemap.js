@@ -31,6 +31,8 @@ const staticPages = [
   "/blog/service-area-pages-dubai-seo",
   "/blog/local-seo-checklist-new-business-uae",
   "/blog/how-long-local-seo-takes-dubai",
+  "/blog/uae-business-directories-citations",
+  "/blog/local-business-schema-uae",
 ];
 
 export default function sitemap() {
