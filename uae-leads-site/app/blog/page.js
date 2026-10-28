@@ -2,6 +2,8 @@ import Link from "next/link";
 import { SITE, wa } from "../../lib/site";
 
 const posts = [
+  { slug: "local-business-schema-uae", title: "LocalBusiness and Service Schema for UAE Websites: A Practical Setup Guide", description: "Choose accurate business and service structured data, use JSON-LD examples and validate markup without promising rich results.", category: "Technical SEO", readTime: "12 min read" },
+  { slug: "uae-business-directories-citations", title: "UAE Business Directories and Citations Worth Using", description: "Prioritise useful UAE map listings, official directories and relevant citations while avoiding low-value bulk submissions.", category: "Local SEO", readTime: "11 min read" },
   { slug: "local-seo-checklist-new-business-uae", title: "Local SEO Checklist for a New Service Business in the UAE: First 30 Days", description: "A practical 30-day local SEO checklist for new UAE AC, plumbing, cleaning and pest control businesses.", category: "Local SEO", readTime: "12 min read" },
   { slug: "how-long-local-seo-takes-dubai", title: "How Long Does Local SEO Take in Dubai? Realistic Timelines", description: "Separate crawling, indexing and ranking, and learn what to measure without relying on guaranteed timelines.", category: "Local SEO", readTime: "10 min read" },
   { slug: "more-google-reviews-uae", title: "How to Get More Google Reviews for a UAE Service Business", description: "A policy-aware process for requesting honest reviews, sharing the right link and responding professionally.", category: "Local SEO", readTime: "10 min read" },
