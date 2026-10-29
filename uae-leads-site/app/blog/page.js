@@ -2,6 +2,8 @@ import Link from "next/link";
 import { SITE, wa } from "../../lib/site";
 
 const posts = [
+  { slug: "google-maps-ranking-factors-dubai", title: "Google Maps Ranking Factors for Dubai Service Companies", description: "Understand relevance, distance and prominence, then use a practical Google Business Profile checklist without ranking guarantees.", category: "Local SEO", readTime: "12 min read" },
+  { slug: "track-whatsapp-clicks-ga4", title: "How to Track Calls and WhatsApp Clicks with GA4 and Search Console", description: "Separate Google Search performance from phone taps, WhatsApp clicks and confirmed enquiries with a practical measurement setup.", category: "Analytics", readTime: "13 min read" },
   { slug: "local-business-schema-uae", title: "LocalBusiness and Service Schema for UAE Websites: A Practical Setup Guide", description: "Choose accurate business and service structured data, use JSON-LD examples and validate markup without promising rich results.", category: "Technical SEO", readTime: "12 min read" },
   { slug: "uae-business-directories-citations", title: "UAE Business Directories and Citations Worth Using", description: "Prioritise useful UAE map listings, official directories and relevant citations while avoiding low-value bulk submissions.", category: "Local SEO", readTime: "11 min read" },
   { slug: "local-seo-checklist-new-business-uae", title: "Local SEO Checklist for a New Service Business in the UAE: First 30 Days", description: "A practical 30-day local SEO checklist for new UAE AC, plumbing, cleaning and pest control businesses.", category: "Local SEO", readTime: "12 min read" },
