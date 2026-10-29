@@ -33,6 +33,8 @@ const staticPages = [
   "/blog/how-long-local-seo-takes-dubai",
   "/blog/uae-business-directories-citations",
   "/blog/local-business-schema-uae",
+  "/blog/google-maps-ranking-factors-dubai",
+  "/blog/track-whatsapp-clicks-ga4",
 ];
 
 export default function sitemap() {
