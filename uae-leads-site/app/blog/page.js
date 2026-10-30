@@ -2,6 +2,8 @@ import Link from "next/link";
 import { SITE, wa } from "../../lib/site";
 
 const posts = [
+  { slug: "whatsapp-lead-generation-dubai", title: "WhatsApp Lead Generation for Dubai Service Businesses: Website Setup Guide", description: "Turn website visits into better WhatsApp enquiries with clear calls to action, useful pre-filled messages and reliable follow-up.", category: "Lead generation", readTime: "11 min read" },
+  { slug: "mobile-website-speed-uae", title: "Mobile Website Speed for UAE Service Businesses: A Practical Fix List", description: "Check mobile performance, Core Web Vitals and practical fixes for images, scripts and layout.", category: "Website performance", readTime: "10 min read" },
   { slug: "google-maps-ranking-factors-dubai", title: "Google Maps Ranking Factors for Dubai Service Companies", description: "Understand relevance, distance and prominence, then use a practical Google Business Profile checklist without ranking guarantees.", category: "Local SEO", readTime: "12 min read" },
   { slug: "track-whatsapp-clicks-ga4", title: "How to Track Calls and WhatsApp Clicks with GA4 and Search Console", description: "Separate Google Search performance from phone taps, WhatsApp clicks and confirmed enquiries with a practical measurement setup.", category: "Analytics", readTime: "13 min read" },
   { slug: "local-business-schema-uae", title: "LocalBusiness and Service Schema for UAE Websites: A Practical Setup Guide", description: "Choose accurate business and service structured data, use JSON-LD examples and validate markup without promising rich results.", category: "Technical SEO", readTime: "12 min read" },
