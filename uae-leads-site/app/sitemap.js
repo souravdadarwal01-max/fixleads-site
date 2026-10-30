@@ -35,6 +35,8 @@ const staticPages = [
   "/blog/local-business-schema-uae",
   "/blog/google-maps-ranking-factors-dubai",
   "/blog/track-whatsapp-clicks-ga4",
+  "/blog/whatsapp-lead-generation-dubai",
+  "/blog/mobile-website-speed-uae",
 ];
 
 export default function sitemap() {
