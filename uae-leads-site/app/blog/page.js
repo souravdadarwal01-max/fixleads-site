@@ -2,6 +2,8 @@ import Link from "next/link";
 import { SITE, wa } from "../../lib/site";
 
 const posts = [
+  { slug: "ai-search-uae-service-businesses", title: "AI Search Visibility for UAE Service Businesses: What to Do in 2026", description: "Make your Dubai service business easier to understand, crawl and trust across Google Search and AI-powered search experiences.", category: "Search strategy", readTime: "11 min read" },
+  { slug: "google-indexing-service-pages-uae", title: "Why Google Isn't Indexing Your UAE Service Pages: A Troubleshooting Guide", description: "Diagnose discovery, crawling, canonical and content-quality issues when new Dubai service-business pages are missing from Google Search.", category: "Technical SEO", readTime: "11 min read" },
   { slug: "whatsapp-lead-generation-dubai", title: "WhatsApp Lead Generation for Dubai Service Businesses: Website Setup Guide", description: "Turn website visits into better WhatsApp enquiries with clear calls to action, useful pre-filled messages and reliable follow-up.", category: "Lead generation", readTime: "11 min read" },
   { slug: "mobile-website-speed-uae", title: "Mobile Website Speed for UAE Service Businesses: A Practical Fix List", description: "Check mobile performance, Core Web Vitals and practical fixes for images, scripts and layout.", category: "Website performance", readTime: "10 min read" },
   { slug: "google-maps-ranking-factors-dubai", title: "Google Maps Ranking Factors for Dubai Service Companies", description: "Understand relevance, distance and prominence, then use a practical Google Business Profile checklist without ranking guarantees.", category: "Local SEO", readTime: "12 min read" },
