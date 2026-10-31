@@ -37,6 +37,8 @@ const staticPages = [
   "/blog/track-whatsapp-clicks-ga4",
   "/blog/whatsapp-lead-generation-dubai",
   "/blog/mobile-website-speed-uae",
+  "/blog/ai-search-uae-service-businesses",
+  "/blog/google-indexing-service-pages-uae",
 ];
 
 export default function sitemap() {
