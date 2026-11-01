@@ -2,6 +2,8 @@ import Link from "next/link";
 import { SITE, wa } from "../../lib/site";
 
 const posts = [
+  { slug: "website-quote-form-conversion-uae", title: "Website Quote Forms That Convert: A Practical Guide for UAE Service Businesses", description: "Help more Dubai and UAE visitors complete quote requests with shorter forms, clear expectations and reliable follow-up.", category: "Lead generation", readTime: "10 min read" },
+  { slug: "google-business-profile-service-menu-uae", title: "Google Business Profile Services: How UAE Companies Should Set Them Up", description: "Organise service categories, descriptions and coverage accurately for Dubai and UAE local customers.", category: "Local SEO", readTime: "10 min read" },
   { slug: "ai-search-uae-service-businesses", title: "AI Search Visibility for UAE Service Businesses: What to Do in 2026", description: "Make your Dubai service business easier to understand, crawl and trust across Google Search and AI-powered search experiences.", category: "Search strategy", readTime: "11 min read" },
   { slug: "google-indexing-service-pages-uae", title: "Why Google Isn't Indexing Your UAE Service Pages: A Troubleshooting Guide", description: "Diagnose discovery, crawling, canonical and content-quality issues when new Dubai service-business pages are missing from Google Search.", category: "Technical SEO", readTime: "11 min read" },
   { slug: "whatsapp-lead-generation-dubai", title: "WhatsApp Lead Generation for Dubai Service Businesses: Website Setup Guide", description: "Turn website visits into better WhatsApp enquiries with clear calls to action, useful pre-filled messages and reliable follow-up.", category: "Lead generation", readTime: "11 min read" },
