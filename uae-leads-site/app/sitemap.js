@@ -39,6 +39,8 @@ const staticPages = [
   "/blog/mobile-website-speed-uae",
   "/blog/ai-search-uae-service-businesses",
   "/blog/google-indexing-service-pages-uae",
+  "/blog/website-quote-form-conversion-uae",
+  "/blog/google-business-profile-service-menu-uae",
 ];
 
 export default function sitemap() {
