@@ -2,6 +2,8 @@ import Link from "next/link";
 import { SITE, wa } from "../../lib/site";
 
 const posts = [
+  { slug: "website-accessibility-checklist-uae", title: "Website Accessibility Checklist for UAE Service Businesses", description: "A practical guide to keyboard access, readable content, accessible forms, image alternatives and mobile usability.", category: "Website experience", readTime: "11 min read" },
+  { slug: "website-project-portfolio-uae", title: "How to Build a Website Project Portfolio That Wins Trust in the UAE", description: "Show real work clearly with project photos, before-and-after context, service details and honest proof points.", category: "Website content", readTime: "10 min read" },
   { slug: "website-quote-form-conversion-uae", title: "Website Quote Forms That Convert: A Practical Guide for UAE Service Businesses", description: "Help more Dubai and UAE visitors complete quote requests with shorter forms, clear expectations and reliable follow-up.", category: "Lead generation", readTime: "10 min read" },
   { slug: "google-business-profile-service-menu-uae", title: "Google Business Profile Services: How UAE Companies Should Set Them Up", description: "Organise service categories, descriptions and coverage accurately for Dubai and UAE local customers.", category: "Local SEO", readTime: "10 min read" },
   { slug: "ai-search-uae-service-businesses", title: "AI Search Visibility for UAE Service Businesses: What to Do in 2026", description: "Make your Dubai service business easier to understand, crawl and trust across Google Search and AI-powered search experiences.", category: "Search strategy", readTime: "11 min read" },
