@@ -2,6 +2,8 @@ import Link from "next/link";
 import { SITE, wa } from "../../lib/site";
 
 const posts = [
+  { slug: "website-backup-security-uae", title: "Website Security and Backups: A Practical Checklist for UAE Small Businesses", description: "Protect your UAE business website with practical steps for HTTPS, updates, backups, access control, forms and recovery planning.", category: "Website security", readTime: "10 min read" },
+  { slug: "website-pricing-page-conversion-uae", title: "How to Create a Website Pricing Page That Builds Trust with UAE Customers", description: "Help Dubai and UAE service customers understand packages, inclusions, exclusions, timelines and quote options.", category: "Website conversion", readTime: "10 min read" },
   { slug: "website-accessibility-checklist-uae", title: "Website Accessibility Checklist for UAE Service Businesses", description: "A practical guide to keyboard access, readable content, accessible forms, image alternatives and mobile usability.", category: "Website experience", readTime: "11 min read" },
   { slug: "website-project-portfolio-uae", title: "How to Build a Website Project Portfolio That Wins Trust in the UAE", description: "Show real work clearly with project photos, before-and-after context, service details and honest proof points.", category: "Website content", readTime: "10 min read" },
   { slug: "website-quote-form-conversion-uae", title: "Website Quote Forms That Convert: A Practical Guide for UAE Service Businesses", description: "Help more Dubai and UAE visitors complete quote requests with shorter forms, clear expectations and reliable follow-up.", category: "Lead generation", readTime: "10 min read" },
