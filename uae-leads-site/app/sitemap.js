@@ -43,6 +43,8 @@ const staticPages = [
   "/blog/google-business-profile-service-menu-uae",
   "/blog/website-accessibility-checklist-uae",
   "/blog/website-project-portfolio-uae",
+  "/blog/website-backup-security-uae",
+  "/blog/website-pricing-page-conversion-uae",
 ];
 
 export default function sitemap() {
