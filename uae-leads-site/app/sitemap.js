@@ -45,6 +45,8 @@ const staticPages = [
   "/blog/website-project-portfolio-uae",
   "/blog/website-backup-security-uae",
   "/blog/website-pricing-page-conversion-uae",
+  "/blog/website-redesign-seo-checklist-uae",
+  "/blog/google-ads-landing-pages-uae",
 ];
 
 export default function sitemap() {
