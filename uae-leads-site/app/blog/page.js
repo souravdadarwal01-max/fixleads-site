@@ -2,6 +2,8 @@ import Link from "next/link";
 import { SITE, wa } from "../../lib/site";
 
 const posts = [
+  { slug: "website-redesign-seo-checklist-uae", title: "Website Redesign SEO Checklist: How UAE Businesses Can Protect Search Visibility", description: "Plan a website redesign without avoidable SEO losses: preserve valuable URLs, map redirects, check metadata, test mobile pages and monitor the launch.", category: "Technical SEO", readTime: "11 min read" },
+  { slug: "google-ads-landing-pages-uae", title: "Google Ads Landing Pages for UAE Service Businesses: A Practical Checklist", description: "Build focused landing pages for Dubai and UAE service campaigns with clear offers, local relevance, mobile-first design and measurable enquiries.", category: "Lead generation", readTime: "10 min read" },
   { slug: "website-backup-security-uae", title: "Website Security and Backups: A Practical Checklist for UAE Small Businesses", description: "Protect your UAE business website with practical steps for HTTPS, updates, backups, access control, forms and recovery planning.", category: "Website security", readTime: "10 min read" },
   { slug: "website-pricing-page-conversion-uae", title: "How to Create a Website Pricing Page That Builds Trust with UAE Customers", description: "Help Dubai and UAE service customers understand packages, inclusions, exclusions, timelines and quote options.", category: "Website conversion", readTime: "10 min read" },
   { slug: "website-accessibility-checklist-uae", title: "Website Accessibility Checklist for UAE Service Businesses", description: "A practical guide to keyboard access, readable content, accessible forms, image alternatives and mobile usability.", category: "Website experience", readTime: "11 min read" },
