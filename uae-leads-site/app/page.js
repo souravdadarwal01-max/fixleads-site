@@ -3,6 +3,13 @@ import { SITE, wa } from "../lib/site";
 import { NICHES } from "../lib/niches";
 
 
+export const metadata = {
+  title: "Web Design & Local SEO in Dubai for Service Businesses | FixLeads Studio",
+  description: "Get a mobile-first website and practical local SEO for your Dubai service business. Clear service pages, WhatsApp enquiries and transparent packages.",
+  alternates: { canonical: "/" },
+  openGraph: { title: "Web Design & Local SEO in Dubai for Service Businesses | FixLeads Studio", description: "Get a mobile-first website and practical local SEO for your Dubai service business. Clear service pages, WhatsApp enquiries and transparent packages.", url: "/", type: "website", images: [{ url: "/opengraph-image", width: 1200, height: 630, alt: "FixLeads Studio — web design and local SEO for UAE service businesses" }] },
+};
+
 const faqLd = {
   "@context": "https://schema.org",
   "@type": "FAQPage",
@@ -14,7 +21,7 @@ const faqLd = {
 };
 
 const servicePillars = [
-  { number: "01", title: "A website built for enquiries", text: "Make it easy for customers to understand your services, check coverage and contact you without hunting for a phone number." },
+  { number: "01", title: "A website built for enquiries", text: "Make it easy for customers in Dubai and across your actual UAE service areas to understand your services, check coverage and contact you without hunting for a phone number." },
   { number: "02", title: "Service pages with a purpose", text: "Give AC repair, deep cleaning, pest treatment and other priority services a clear page with useful information and a direct next step." },
   { number: "03", title: "SEO foundations you can build on", text: "Clear page structure, metadata, internal links, schema where appropriate and Search Console setup—not promises of instant rankings." },
 ];
