@@ -41,10 +41,10 @@ export async function generateMetadata({ params }) {
   const n = await find(params);
   if (!n) return {};
   return {
-    title: n.h1,
-    description: `Website design and local SEO for ${n.name.toLowerCase()} businesses across the UAE. Explore service-page planning, mobile contact journeys, service-area content and clear package pricing.`,
+    title: n.slug === "ac-maintenance" ? "AC Repair SEO & Website Design in Dubai | FixLeads Studio" : n.h1,
+    description: n.slug === "ac-maintenance" ? "Website design and local SEO for Dubai AC repair and maintenance companies. Plan repair, servicing and AMC pages, improve local visibility and make WhatsApp enquiries easier." : `Website design and local SEO for ${n.name.toLowerCase()} businesses across the UAE. Explore service-page planning, mobile contact journeys, service-area content and clear package pricing.`,
     alternates: { canonical: `/niches/${n.slug}` },
-    openGraph: { title: n.h1, description: `Practical website planning for ${n.name.toLowerCase()} companies in the UAE.`, url: `/niches/${n.slug}`, type: "website", images: [{ url: "/opengraph-image", width: 1200, height: 630, alt: "FixLeads Studio — web design and local SEO for UAE home-service businesses" }] }
+    openGraph: { title: n.slug === "ac-maintenance" ? "AC Repair SEO & Website Design in Dubai | FixLeads Studio" : n.h1, description: n.slug === "ac-maintenance" ? "Website design and local SEO for Dubai AC repair and maintenance companies." : `Practical website planning for ${n.name.toLowerCase()} companies in the UAE.`, url: `/niches/${n.slug}`, type: "website", images: [{ url: "/opengraph-image", width: 1200, height: 630, alt: "FixLeads Studio — web design and local SEO for UAE home-service businesses" }] }
   };
 }
 
@@ -71,6 +71,7 @@ export default async function Niche({ params }) {
       <ul className="ticks">{n.pages.map((p) => <li key={p}>{p}</li>)}</ul>
       <p>Each priority page should explain what the service includes, who it is for, the information a customer should provide and the next step. A single clear call-to-action is usually more useful than repeating several competing buttons. Keep page titles specific, use descriptive headings and link naturally to related services, pricing and contact routes.</p>
       <h2>Local coverage across Dubai and the UAE</h2><p>{d.areas}</p>
+      {n.slug === "ac-maintenance" && <><h2>SEO for AC repair and maintenance companies in Dubai</h2><p>Build the site around the services customers actually need: AC repair, routine servicing, duct cleaning and annual maintenance contracts (AMCs), where those services are genuinely offered. Give each priority service its own useful page when the process, inclusions or customer questions differ. Explain what an inspection covers, what affects a quote and how a customer can request an appointment. Do not promise emergency response times or same-day availability unless the business can consistently deliver them.</p><p>For local visibility, keep the business name, phone number, hours and service-area details consistent. Complete the Google Business Profile accurately, choose the most relevant categories and describe only the areas the team can serve. Add genuine job photos and request honest customer reviews without incentives or filtering. Avoid near-identical pages for every Dubai neighbourhood; publish an area page only when it contains distinct coverage, logistics, projects or useful customer information.</p><p>Related guides: <Link href="/blog/local-seo-uae-service-businesses">Local SEO for UAE service businesses</Link>, <Link href="/blog/google-business-profile-service-area-uae">Google Business Profile for service-area businesses</Link> and <Link href="/blog/website-maintenance-cost-uae">website maintenance costs</Link>. Compare <Link href="/pricing">FixLeads Studio packages</Link> or <Link href="/contact">request a website review</Link>.</p></>}
       <h2>A practical website project process</h2>
       <ol className="steps">
         <li><strong>Review:</strong> identify the most valuable services, customer questions, real coverage and current contact journey.</li>
