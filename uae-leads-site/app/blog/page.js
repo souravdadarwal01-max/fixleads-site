@@ -2,6 +2,7 @@ import Link from "next/link";
 import { SITE, wa } from "../../lib/site";
 
 const posts = [
+  { slug: "arabic-english-website-design-uae", title: "Arabic and English Website Design in the UAE: A Practical Bilingual SEO Checklist", description: "Plan an Arabic-English website for a UAE service business with clear language switching, right-to-left layouts, translated service pages, URL structure and hreflang checks.", category: "Bilingual website design", readTime: "12 min read" },
   { slug: "website-redesign-seo-checklist-uae", title: "Website Redesign SEO Checklist: How UAE Businesses Can Protect Search Visibility", description: "Plan a website redesign without avoidable SEO losses: preserve valuable URLs, map redirects, check metadata, test mobile pages and monitor the launch.", category: "Technical SEO", readTime: "11 min read" },
   { slug: "google-ads-landing-pages-uae", title: "Google Ads Landing Pages for UAE Service Businesses: A Practical Checklist", description: "Build focused landing pages for Dubai and UAE service campaigns with clear offers, local relevance, mobile-first design and measurable enquiries.", category: "Lead generation", readTime: "10 min read" },
   { slug: "website-backup-security-uae", title: "Website Security and Backups: A Practical Checklist for UAE Small Businesses", description: "Protect your UAE business website with practical steps for HTTPS, updates, backups, access control, forms and recovery planning.", category: "Website security", readTime: "10 min read" },
