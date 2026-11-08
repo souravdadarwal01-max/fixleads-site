@@ -5,6 +5,7 @@ const staticPages = [
   "",
   "/blog",
   "/blog/arabic-english-website-design-uae",
+  "/blog/ac-amc-website-page-dubai",
   "/industries",
   "/pricing",
   "/how-it-works",

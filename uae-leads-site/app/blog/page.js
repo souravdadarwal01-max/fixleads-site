@@ -2,6 +2,7 @@ import Link from "next/link";
 import { SITE, wa } from "../../lib/site";
 
 const posts = [
+  { slug: "ac-amc-website-page-dubai", title: "AC Annual Maintenance Contract Website Pages in Dubai: What to Explain Before Customers Enquire", description: "Help Dubai AC companies explain annual maintenance contracts online with clear inclusions, visit schedules, exclusions, service coverage and quote details.", category: "Website conversion", readTime: "11 min read" },
   { slug: "arabic-english-website-design-uae", title: "Arabic and English Website Design in the UAE: A Practical Bilingual SEO Checklist", description: "Plan an Arabic-English website for a UAE service business with clear language switching, right-to-left layouts, translated service pages, URL structure and hreflang checks.", category: "Bilingual website design", readTime: "12 min read" },
   { slug: "website-redesign-seo-checklist-uae", title: "Website Redesign SEO Checklist: How UAE Businesses Can Protect Search Visibility", description: "Plan a website redesign without avoidable SEO losses: preserve valuable URLs, map redirects, check metadata, test mobile pages and monitor the launch.", category: "Technical SEO", readTime: "11 min read" },
   { slug: "google-ads-landing-pages-uae", title: "Google Ads Landing Pages for UAE Service Businesses: A Practical Checklist", description: "Build focused landing pages for Dubai and UAE service campaigns with clear offers, local relevance, mobile-first design and measurable enquiries.", category: "Lead generation", readTime: "10 min read" },
