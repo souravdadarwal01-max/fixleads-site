@@ -38,6 +38,15 @@ export default function Home() {
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqLd) }} />
 
+      <section className="launch-offer-banner" aria-label="Limited-time launch offer">
+        <div className="wrap launch-offer-inner">
+          <span className="launch-offer-kicker">FIXLEADS STUDIO LAUNCH OFFER</span>
+          <strong>50% OFF website packages</strong>
+          <span>Get your UAE business website for half the regular price.</span>
+          <Link href="/pricing" className="launch-offer-link">View offer <span aria-hidden="true">↗</span></Link>
+        </div>
+      </section>
+
       <section className="premium-hero">
         <div className="wrap premium-hero-grid">
           <div className="hero-copy">
@@ -102,7 +111,7 @@ export default function Home() {
       <section className="sec pricing-section alt" id="pricing">
         <div className="wrap">
           <div className="section-heading"><div><p className="eyebrow">SIMPLE PACKAGES</p><h2>Choose a sensible starting point.</h2></div><p>Indicative starting prices in AED. We confirm exact scope, timeline and any optional costs in writing before work starts.</p></div>
-          <div className="premium-pricing-grid">{SITE.plans.map((p, i) => <article className={`premium-plan ${i === 1 ? "featured-plan" : ""}`} key={p.name}>{i === 1 && <span className="plan-ribbon">MOST COMPREHENSIVE</span>}<p className="plan-eyebrow">{i === 0 ? "START HERE" : i === 1 ? "GROW YOUR PRESENCE" : "ONGOING SUPPORT"}</p><h3>{p.name}</h3><p className="premium-price">{p.price}</p><p className="plan-period">{p.note}</p><ul>{p.items.map((item) => <li key={item}><span>✓</span>{item}</li>)}</ul><a className={i === 1 ? "btn hero-primary plan-button" : "btn ghost plan-button"} href={wa(`Hi FixLeads Studio, I'm interested in the ${p.name} package for my UAE business. Please share the scope and next steps.`)} target="_blank" rel="noopener noreferrer">Discuss {p.name} <span>↗</span></a></article>)}</div>
+          <div className="premium-pricing-grid">{SITE.plans.map((p, i) => <article className={`premium-plan ${i === 1 ? "featured-plan" : ""}`} key={p.name}>{i === 1 && <span className="plan-ribbon">MOST COMPREHENSIVE</span>}<p className="plan-eyebrow">{i === 0 ? "START HERE" : i === 1 ? "GROW YOUR PRESENCE" : "ONGOING SUPPORT"}</p><h3>{p.name}</h3><p className="plan-regular-price"><s>{p.regularPrice}</s><span>50% OFF</span></p><p className="premium-price">{p.price}</p><p className="plan-period">{p.note}</p><ul>{p.items.map((item) => <li key={item}><span>✓</span>{item}</li>)}</ul><a className={i === 1 ? "btn hero-primary plan-button" : "btn ghost plan-button"} href={wa(`Hi FixLeads Studio, I'm interested in the ${p.name} package for my UAE business. Please share the scope and next steps.`)} target="_blank" rel="noopener noreferrer">Discuss {p.name} <span>↗</span></a></article>)}</div>
           <p className="pricing-note">Need Arabic content, extra pages, photography or integrations? Mention it during the review so it can be scoped accurately.</p>
         </div>
       </section>
