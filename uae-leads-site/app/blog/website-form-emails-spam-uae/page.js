@@ -46,18 +46,20 @@ const ld = [
   }
 ];
 
+const seoTitle = "Website Form Emails Going to Spam? UAE Business Guide";
+
 export const metadata = {
-  title,
+  title: seoTitle,
   description,
   alternates: { canonical: "/blog/website-form-emails-spam-uae" },
   openGraph: {
-    title,
+    title: seoTitle,
     description,
     type: "article",
     url: "/blog/website-form-emails-spam-uae",
     images: [{ url: image, alt: "How SPF, DKIM and DMARC help authenticate website enquiry emails" }]
   },
-  twitter: { card: "summary_large_image", title, description, images: [image] }
+  twitter: { card: "summary_large_image", title: seoTitle, description, images: [image] }
 };
 
 export default function Article() {
