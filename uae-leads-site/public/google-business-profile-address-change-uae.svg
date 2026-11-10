@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+<title id="title">Business relocation and local SEO checklist</title>
+<desc id="desc">An illustrated map showing a move from an old business location to a new location beside a checklist.</desc>
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0b1733"/><stop offset="1" stop-color="#132d57"/></linearGradient>
+  <linearGradient id="blue" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#60a5fa"/><stop offset="1" stop-color="#2563eb"/></linearGradient>
+  <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%"><feDropShadow dx="0" dy="16" stdDeviation="18" flood-color="#020617" flood-opacity=".28"/></filter>
+</defs>
+<rect width="1200" height="630" rx="34" fill="url(#bg)"/>
+<g opacity=".13" stroke="#bfdbfe" stroke-width="2" fill="none">
+  <path d="M0 150h1200M0 270h1200M0 390h1200M0 510h1200"/>
+  <path d="M120 0v630M300 0v630M480 0v630M660 0v630M840 0v630M1020 0v630"/>
+  <path d="M0 550 260 330 480 470 720 210 980 390 1200 190"/>
+</g>
+<g filter="url(#shadow)">
+  <rect x="74" y="92" width="630" height="446" rx="28" fill="#f8fafc"/>
+  <rect x="744" y="92" width="382" height="446" rx="28" fill="#fff"/>
+</g>
+<g transform="translate(125 146)">
+  <path d="M18 160c70-86 143-89 220-30s128 75 203 6 118-55 180-5" fill="none" stroke="#cbd5e1" stroke-width="18" stroke-linecap="round" stroke-dasharray="3 24"/>
+  <path d="M62 242c80-60 145-46 213 9s128 56 203-3 106-63 143-40" fill="none" stroke="#dbeafe" stroke-width="15" stroke-linecap="round"/>
+  <path d="M106 132c76-23 139-14 190 30s104 58 162 28" fill="none" stroke="#93c5fd" stroke-width="8" stroke-linecap="round" stroke-dasharray="15 15"/>
+  <g transform="translate(98 82)">
+    <path d="M0 0c0-38 30-68 68-68s68 30 68 68c0 53-68 128-68 128S0 53 0 0Z" fill="#64748b"/>
+    <circle cx="68" cy="0" r="24" fill="#f8fafc"/>
+    <path d="M44 0h48" stroke="#64748b" stroke-width="7" stroke-linecap="round"/>
+    <path d="M50-18 86 18" stroke="#64748b" stroke-width="7" stroke-linecap="round"/>
+  </g>
+  <g transform="translate(400 182)">
+    <path d="M0 0c0-42 34-76 76-76s76 34 76 76c0 60-76 145-76 145S0 60 0 0Z" fill="url(#blue)"/>
+    <circle cx="76" cy="0" r="27" fill="#fff"/>
+    <path d="m64 1 9 9 18-21" fill="none" stroke="#16a34a" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <path d="M258 165c45-17 75-14 105 1" fill="none" stroke="#059669" stroke-width="9" stroke-linecap="round"/>
+  <path d="m347 147 23 19-27 13" fill="none" stroke="#059669" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+  <g transform="translate(58 335)">
+    <rect width="520" height="74" rx="18" fill="#eff6ff"/>
+    <circle cx="40" cy="37" r="15" fill="#64748b"/>
+    <text x="72" y="31" font-family="Arial,sans-serif" font-size="20" font-weight="700" fill="#334155">Old location</text>
+    <text x="72" y="55" font-family="Arial,sans-serif" font-size="15" fill="#64748b">Remove outdated directions</text>
+    <circle cx="345" cy="37" r="15" fill="#2563eb"/>
+    <text x="372" y="31" font-family="Arial,sans-serif" font-size="20" font-weight="700" fill="#1e40af">New location</text>
+    <text x="372" y="55" font-family="Arial,sans-serif" font-size="15" fill="#64748b">Verify and update</text>
+  </g>
+</g>
+<g transform="translate(786 145)">
+  <text x="0" y="0" font-family="Arial,sans-serif" font-size="19" font-weight="700" letter-spacing="2" fill="#64748b">RELOCATION CHECKLIST</text>
+  <text x="0" y="58" font-family="Arial,sans-serif" font-size="31" font-weight="700" fill="#0f172a">Keep every detail</text>
+  <text x="0" y="96" font-family="Arial,sans-serif" font-size="31" font-weight="700" fill="#0f172a">in sync.</text>
+  <g transform="translate(0 145)" font-family="Arial,sans-serif" font-size="19" fill="#334155">
+    <g><circle cx="15" cy="0" r="13" fill="#dcfce7"/><path d="m9 0 4 4 8-9" fill="none" stroke="#15803d" stroke-width="3" stroke-linecap="round"/><text x="42" y="7">Google Business Profile</text></g>
+    <g transform="translate(0 60)"><circle cx="15" cy="0" r="13" fill="#dcfce7"/><path d="m9 0 4 4 8-9" fill="none" stroke="#15803d" stroke-width="3" stroke-linecap="round"/><text x="42" y="7">Website and map pin</text></g>
+    <g transform="translate(0 120)"><circle cx="15" cy="0" r="13" fill="#dcfce7"/><path d="m9 0 4 4 8-9" fill="none" stroke="#15803d" stroke-width="3" stroke-linecap="round"/><text x="42" y="7">Directories and profiles</text></g>
+    <g transform="translate(0 180)"><circle cx="15" cy="0" r="13" fill="#dcfce7"/><path d="m9 0 4 4 8-9" fill="none" stroke="#15803d" stroke-width="3" stroke-linecap="round"/><text x="42" y="7">Calls, forms and enquiries</text></g>
+  </g>
+  <rect x="0" y="355" width="300" height="4" rx="2" fill="#dbeafe"/>
+  <text x="0" y="390" font-family="Arial,sans-serif" font-size="15" fill="#64748b">A practical guide for UAE service businesses</text>
+</g>
+</svg>

@@ -2,6 +2,7 @@ import Link from "next/link";
 import { SITE, wa } from "../../lib/site";
 
 const posts = [
+  { slug: "google-business-profile-address-change-uae", title: "Moved Your Business in Dubai? Google Business Profile & Local SEO Checklist", description: "A practical UAE checklist for moving premises or changing coverage: update Google Business Profile, verify the new address, correct website details and refresh local listings.", category: "Local SEO", readTime: "12 min read" },
   { slug: "dubai-home-service-website-trust-checklist", title: "What Should a Dubai Home-Service Website Show Before a Customer Requests a Quote?", description: "A practical guide to service details, coverage, transparent pricing, genuine proof and contact options that help UAE customers make informed enquiries.", category: "Website conversion", readTime: "11 min read" },
   { slug: "website-form-emails-spam-uae", title: "Website Contact Form Emails Going to Spam? A UAE Business Checklist", description: "Troubleshoot missing website enquiries with a practical UAE business guide to SPF, DKIM, DMARC, form sender settings, email testing and backup notifications.", category: "Website reliability", readTime: "12 min read" },
   { slug: "website-enquiry-follow-up-uae", title: "How UAE Service Businesses Should Follow Up on Website Enquiries", description: "A practical lead follow-up process for Dubai and UAE service businesses: response ownership, qualification, WhatsApp, calls, reminders and enquiry tracking.", category: "Lead management", readTime: "11 min read" },
