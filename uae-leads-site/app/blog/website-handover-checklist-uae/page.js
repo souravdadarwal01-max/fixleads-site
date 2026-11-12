@@ -2,7 +2,7 @@ import Link from "next/link";
 import { SITE, wa } from "../../../lib/site";
 
 const title = "Website Handover Checklist for UAE Businesses: What to Collect";
-const description = "A UAE website handover checklist covering domain, hosting, source files, analytics, Google profiles, backups and secure access when changing providers.";
+const description = "Use this UAE website handover checklist to secure your domain, hosting, source code, analytics, backups and business accounts when changing web developers.";
 const seoTitle = "Website Handover Checklist UAE: Domain, Access & Files";
 const image = "/website-handover-checklist-uae.svg";
 const url = SITE.url + "/blog/website-handover-checklist-uae";
