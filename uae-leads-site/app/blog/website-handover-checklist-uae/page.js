@@ -37,15 +37,6 @@ const structuredData = [
       { "@type": "ListItem", position: 3, name: title, item: url }
     ]
   },
-  {
-    "@context": "https://schema.org",
-    "@type": "FAQPage",
-    mainEntity: faqs.map(([question, answer]) => ({
-      "@type": "Question",
-      name: question,
-      acceptedAnswer: { "@type": "Answer", text: answer }
-    }))
-  }
 ];
 
 export const metadata = {
