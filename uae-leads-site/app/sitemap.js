@@ -5,6 +5,7 @@ const staticPages = [
   "",
   "/blog",
   "/blog/uae-website-privacy-notice-checklist",
+  "/blog/google-business-profile-suspension-uae",
   "/blog/about-page-uae-service-businesses",
   "/blog/website-handover-checklist-uae",
   "/blog/google-business-profile-holiday-hours-uae",
