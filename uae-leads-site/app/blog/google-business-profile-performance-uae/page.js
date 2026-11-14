@@ -152,18 +152,13 @@ export default function Article() {
 
           <h2>What to investigate when a number changes</h2>
           <p>Use a change in the report as a prompt to investigate—not as an automatic diagnosis. The table below gives practical first checks, not guaranteed explanations.</p>
-          <div className="table-wrap">
-            <table>
-              <thead><tr><th>What you notice</th><th>Useful first checks</th></tr></thead>
-              <tbody>
-                <tr><td>Views rise but calls stay flat</td><td>Check whether the phone number, hours, service description and contact options are accurate and easy to find.</td></tr>
-                <tr><td>Calls fall while views look steady</td><td>Test the displayed number, check missed-call records and confirm that the team can answer during the listed hours.</td></tr>
-                <tr><td>Website clicks rise but enquiries do not</td><td>Test the landing page on mobile, check loading and form errors, and make the next contact step clear.</td></tr>
-                <tr><td>Search terms look unrelated</td><td>Review the real business category, services and website content. Do not add keywords to the business name.</td></tr>
-                <tr><td>Directions fall for a walk-in location</td><td>Check the public address, map pin, opening hours and whether the location is still receiving customers.</td></tr>
-              </tbody>
-            </table>
-          </div>
+          <ul>
+            <li><strong>Views rise but calls stay flat:</strong> check whether the phone number, hours, service description and contact options are accurate and easy to find.</li>
+            <li><strong>Calls fall while views look steady:</strong> test the displayed number, check missed-call records and confirm that the team can answer during the listed hours.</li>
+            <li><strong>Website clicks rise but enquiries do not:</strong> test the landing page on mobile, check loading and form errors, and make the next contact step clear.</li>
+            <li><strong>Search terms look unrelated:</strong> review the real business category, services and website content. Do not add keywords to the business name.</li>
+            <li><strong>Directions fall for a walk-in location:</strong> check the public address, map pin, opening hours and whether the location is still receiving customers.</li>
+          </ul>    </div>
           <p>For a service-area business that travels to customers, prioritise the actions that match its actual sales process. If the team does not welcome visitors at a public address, directions may not be a meaningful success measure.</p>
 
           <h2>Keep profile activity separate from business outcomes</h2>
