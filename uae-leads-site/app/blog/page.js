@@ -2,6 +2,7 @@ import Link from "next/link";
 import { SITE, wa } from "../../lib/site";
 
 const posts = [
+  { slug: "google-business-profile-performance-uae", title: "Google Business Profile Performance: A Practical Guide for UAE Service Businesses", description: "Learn how Dubai and UAE service businesses can read Google Business Profile views, searches, calls and website clicks—and turn the numbers into better enquiries.", category: "Google Business Profile", readTime: "12 min read" },
   { slug: "google-business-profile-suspension-uae", title: "Google Business Profile Suspended in Dubai? A UAE Business Appeal Checklist", description: "A practical UAE guide to Google Business Profile suspensions: check eligibility, correct profile details, prepare evidence and follow the right appeal route.", category: "Google Business Profile", readTime: "12 min read" },
   { slug: "uae-website-privacy-notice-checklist", title: "Website Privacy Notice in the UAE: A Practical Checklist for Service Businesses", description: "A practical UAE website privacy notice checklist for service businesses: explain enquiry data, purposes, access, retention, third-party tools and customer choices.", category: "Website privacy", readTime: "12 min read" },
   { slug: "website-handover-checklist-uae", title: "Website Handover Checklist for UAE Businesses: What to Collect", description: "Use this UAE website handover checklist to secure your domain, hosting, source code, analytics, backups and business accounts when changing web developers.", category: "Website ownership", readTime: "12 min read" },
