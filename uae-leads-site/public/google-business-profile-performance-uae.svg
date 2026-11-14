@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">Google Business Profile performance metrics for UAE service businesses</title>
+  <desc id="desc">A dashboard illustration showing profile views, search terms, call clicks and website clicks, with a monthly measurement checklist.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#eff6ff"/><stop offset="1" stop-color="#e7f7f1"/></linearGradient>
+    <linearGradient id="blue" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#1e40af"/><stop offset="1" stop-color="#3730a3"/></linearGradient>
+    <linearGradient id="green" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0f766e"/><stop offset="1" stop-color="#059669"/></linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="150%"><feDropShadow dx="0" dy="15" stdDeviation="17" flood-color="#102a43" flood-opacity=".13"/></filter>
+  </defs>
+  <rect width="1200" height="630" rx="34" fill="url(#bg)"/>
+  <circle cx="1080" cy="82" r="155" fill="#d4f1e5" opacity=".72"/>
+  <circle cx="95" cy="560" r="120" fill="#dbeafe" opacity=".78"/>
+  <g filter="url(#shadow)">
+    <rect x="68" y="65" width="720" height="500" rx="28" fill="#fff"/>
+    <rect x="68" y="65" width="720" height="78" rx="28" fill="#12324a"/>
+    <path d="M68 112h720v31H68z" fill="#12324a"/>
+    <circle cx="108" cy="104" r="8" fill="#34d399"/>
+    <circle cx="137" cy="104" r="8" fill="#93c5fd"/>
+    <circle cx="166" cy="104" r="8" fill="#c4b5fd"/>
+    <text x="205" y="113" fill="#fff" font-family="Arial, sans-serif" font-size="23" font-weight="700">BUSINESS PROFILE PERFORMANCE</text>
+    <text x="108" y="184" fill="#527084" font-family="Arial, sans-serif" font-size="15" font-weight="700" letter-spacing="1.4">CUSTOMER ACTIVITY · EXAMPLE DASHBOARD</text>
+    <g font-family="Arial, sans-serif">
+      <rect x="108" y="207" width="265" height="104" rx="17" fill="#eff6ff"/>
+      <circle cx="148" cy="249" r="23" fill="#dbeafe"/>
+      <path d="M135 255l9-10 7 6 12-15" fill="none" stroke="#1e40af" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+      <text x="185" y="246" fill="#12324a" font-size="18" font-weight="700">PROFILE VIEWS</text>
+      <text x="185" y="273" fill="#527084" font-size="14">Search + Maps</text>
+      <rect x="392" y="207" width="354" height="104" rx="17" fill="#ecfdf5"/>
+      <circle cx="434" cy="249" r="23" fill="#d1fae5"/>
+      <path d="M425 240h18v18h-18z" fill="none" stroke="#0f766e" stroke-width="3" rx="3"/>
+      <path d="M429 246h10m-10 6h7" stroke="#0f766e" stroke-width="2.5" stroke-linecap="round"/>
+      <text x="472" y="246" fill="#12324a" font-size="18" font-weight="700">SEARCH TERMS</text>
+      <text x="472" y="273" fill="#527084" font-size="14">Queries that surfaced the profile</text>
+      <rect x="108" y="329" width="265" height="104" rx="17" fill="#f5f3ff"/>
+      <circle cx="148" cy="371" r="23" fill="#ede9fe"/>
+      <path d="M138 363c0-5 5-9 10-9s10 4 10 9c0 9-10 18-10 18s-10-9-10-18z" fill="none" stroke="#6d28d9" stroke-width="3"/>
+      <circle cx="148" cy="363" r="3" fill="#6d28d9"/>
+      <text x="185" y="368" fill="#12324a" font-size="18" font-weight="700">CALL CLICKS</text>
+      <text x="185" y="395" fill="#527084" font-size="14">Button taps, not answered calls</text>
+      <rect x="392" y="329" width="354" height="104" rx="17" fill="#fff7ed" stroke="#fed7aa"/>
+      <circle cx="434" cy="371" r="23" fill="#ffedd5"/>
+      <path d="M424 360h20v22h-20z" fill="none" stroke="#c2410c" stroke-width="3" stroke-linejoin="round"/>
+      <path d="M428 366h12m-12 6h9" stroke="#c2410c" stroke-width="2.5" stroke-linecap="round"/>
+      <text x="472" y="368" fill="#12324a" font-size="18" font-weight="700">WEBSITE CLICKS</text>
+      <text x="472" y="395" fill="#527084" font-size="14">Not the same as enquiries</text>
+      <rect x="108" y="451" width="638" height="78" rx="17" fill="#12324a"/>
+      <path d="M144 494l13 13 25-30" fill="none" stroke="#34d399" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+      <text x="205" y="484" fill="#fff" font-size="19" font-weight="700">COMPARE WITH REAL ENQUIRIES</text>
+      <text x="205" y="508" fill="#cbd5e1" font-size="14">Calls answered · Forms · Qualified leads · Jobs booked</text>
+    </g>
+  </g>
+  <g filter="url(#shadow)">
+    <rect x="830" y="142" width="300" height="300" rx="27" fill="#fff"/>
+    <text x="980" y="190" fill="#12324a" font-family="Arial, sans-serif" font-size="17" font-weight="700" text-anchor="middle">MONTHLY REVIEW</text>
+    <path d="M875 359V244h210" fill="none" stroke="#cbd5e1" stroke-width="2"/>
+    <path d="M887 331l47-36 43 13 43-55 43 16" fill="none" stroke="url(#blue)" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="887" cy="331" r="6" fill="#1e40af"/>
+    <circle cx="934" cy="295" r="6" fill="#1e40af"/>
+    <circle cx="977" cy="308" r="6" fill="#1e40af"/>
+    <circle cx="1020" cy="253" r="6" fill="#1e40af"/>
+    <circle cx="1063" cy="269" r="6" fill="#1e40af"/>
+    <rect x="866" y="377" width="228" height="38" rx="12" fill="#ecfdf5"/>
+    <text x="980" y="402" fill="#047857" font-family="Arial, sans-serif" font-size="15" font-weight="700" text-anchor="middle">Measure what becomes a lead</text>
+  </g>
+  <text x="830" y="492" fill="#12324a" font-family="Arial, sans-serif" font-size="24" font-weight="700">A practical UAE guide</text>
+  <text x="830" y="526" fill="#527084" font-family="Arial, sans-serif" font-size="16">Read the numbers. Check the real outcome.</text>
+</svg>
