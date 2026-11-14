@@ -151,7 +151,7 @@ export default function Article() {
           <p>For help building a consistent response process after a lead arrives, read <Link href="/blog/website-enquiry-follow-up-uae">how UAE service businesses should follow up on website enquiries</Link>. If the profile's hours need attention before a holiday, use our <Link href="/blog/google-business-profile-holiday-hours-uae">Google Business Profile holiday-hours checklist</Link>.</p>
 
           <h2>What to investigate when a number changes</h2>
-          <p>Use a change in the report as a prompt to investigate—not as an automatic diagnosis. The table below gives practical first checks, not guaranteed explanations.</p>
+          <p>Use a change in the report as a prompt to investigate—not as an automatic diagnosis. The checklist below gives practical first checks, not guaranteed explanations.</p>
           <ul>
             <li><strong>Views rise but calls stay flat:</strong> check whether the phone number, hours, service description and contact options are accurate and easy to find.</li>
             <li><strong>Calls fall while views look steady:</strong> test the displayed number, check missed-call records and confirm that the team can answer during the listed hours.</li>
