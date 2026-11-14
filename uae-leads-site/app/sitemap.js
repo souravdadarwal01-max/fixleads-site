@@ -4,6 +4,7 @@ import { NICHES } from "../lib/niches";
 const staticPages = [
   "",
   "/blog",
+  "/blog/google-business-profile-performance-uae",
   "/blog/uae-website-privacy-notice-checklist",
   "/blog/google-business-profile-suspension-uae",
   "/blog/about-page-uae-service-businesses",
