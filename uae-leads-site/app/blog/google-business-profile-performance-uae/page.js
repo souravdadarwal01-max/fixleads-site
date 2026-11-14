@@ -158,7 +158,7 @@ export default function Article() {
             <li><strong>Website clicks rise but enquiries do not:</strong> test the landing page on mobile, check loading and form errors, and make the next contact step clear.</li>
             <li><strong>Search terms look unrelated:</strong> review the real business category, services and website content. Do not add keywords to the business name.</li>
             <li><strong>Directions fall for a walk-in location:</strong> check the public address, map pin, opening hours and whether the location is still receiving customers.</li>
-          </ul>    </div>
+          </ul>
           <p>For a service-area business that travels to customers, prioritise the actions that match its actual sales process. If the team does not welcome visitors at a public address, directions may not be a meaningful success measure.</p>
 
           <h2>Keep profile activity separate from business outcomes</h2>
