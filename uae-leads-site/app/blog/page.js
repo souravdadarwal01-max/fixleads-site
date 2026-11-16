@@ -2,6 +2,7 @@ import Link from "next/link";
 import { SITE, wa } from "../../lib/site";
 
 const posts = [
+  { slug: "google-business-profile-photos-uae", title: "Google Business Profile Photos for UAE Service Businesses: What to Upload", description: "A practical photo checklist for UAE service businesses: genuine work and team images, Google’s upload requirements, privacy checks and troubleshooting.", category: "Google Business Profile", readTime: "12 min read" },
   { slug: "google-business-profile-booking-links-uae", title: "Google Business Profile Booking Links for UAE Service Businesses: Setup & Checks", description: "Learn when UAE service businesses can add a Google Business Profile booking link, how to choose the right page, meet Google’s link rules and test the booking journey.", category: "Google Business Profile", readTime: "13 min read" },
   { slug: "plumbing-company-website-uae", title: "What Should a Plumbing Company Website Include in the UAE?", description: "Plan a plumbing company website in the UAE with clear service pages, accurate call-out hours, service-area details, quote forms and mobile contact options.", category: "Website design", readTime: "12 min read" },
   { slug: "google-business-profile-performance-uae", title: "Google Business Profile Performance: A Practical Guide for UAE Service Businesses", description: "Learn how Dubai and UAE service businesses can read Google Business Profile views, searches, calls and website clicks—and turn the numbers into better enquiries.", category: "Google Business Profile", readTime: "12 min read" },
