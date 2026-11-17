@@ -422,3 +422,11 @@ html{scroll-padding-top:110px}
 .home-photo-disclaimer{margin:15px 0 0;color:#71818b;font-size:.76rem}
 @media(max-width:850px){.home-photo-grid{grid-template-columns:1fr 1fr}.home-photo-card:last-child{grid-column:1/-1;min-height:260px}}
 @media(max-width:560px){.home-photo-grid{grid-template-columns:1fr}.home-photo-card,.home-photo-card:last-child{min-height:280px}}
+
+
+/* Dark brand highlight strip beneath the homepage hero */
+.hero-bottom{background:#102b55;border-top:1px solid rgba(255,255,255,.12);color:#fff}
+.hero-bottom-inner>span{color:#c5d6e5}
+.hero-bottom-inner>div{color:#fff}
+.hero-bottom-inner i{background:#38b7aa}
+@media(max-width:650px){.hero-bottom-inner{padding-top:14px;padding-bottom:14px;align-items:flex-start;flex-direction:column;gap:9px}.hero-bottom-inner>div{gap:9px 11px}}
