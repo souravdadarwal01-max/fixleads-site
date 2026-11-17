@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { wa } from "../../lib/site";
+import { SITE, wa } from "../../lib/site";
 
 export default function EnquiryForm() {
   const [sent, setSent] = useState(false);
@@ -38,6 +38,6 @@ export default function EnquiryForm() {
     <label className="enquiry-consent"><input type="checkbox" required /> I agree that FixLeads Studio may use these details to respond to my enquiry. See the <a href="/privacy-policy" target="_blank" rel="noreferrer">Privacy Policy</a>.</label>
     <button className="btn" type="submit">Continue to WhatsApp ↗</button>
     <p className="enquiry-small">This form prepares a WhatsApp message with your details. It does not save your information on this website. Review the message and press Send in WhatsApp to complete your enquiry.</p>
-    {sent && <p className="enquiry-success" role="status">WhatsApp should have opened with your enquiry prepared. Review the details and press Send in WhatsApp. If it did not open, email hellofixleadsstudio@gmail.com.</p>}
+    {sent && <p className="enquiry-success" role="status">WhatsApp should have opened with your enquiry prepared. Review the details and press Send in WhatsApp. If it did not open, email <a href={`mailto:${SITE.email}`}>{SITE.email}</a>.</p>}
   </form>;
 }
