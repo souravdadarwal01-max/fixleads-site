@@ -226,18 +226,23 @@ export default function Article() {
           </div>
 
           <h2>Frequently asked questions</h2>
-          {faqs.map(([question, answer]) => (
-            <div className="faq-item" key={question}>
-              <h3>{question}</h3>
-              <p>{answer}</p>
-            </div>
-          ))}
+          {faqs.map(([question, answer]) => <details key={question}><summary>{question}</summary><p>{answer}</p></details>)}
 
-          <h2>Need a second pair of eyes on your profile setup?</h2>
-          <p>Before you submit, it can help to check that your public profile, website and business details describe the same real operation. FixLeads Studio works with UAE service businesses on website design and local SEO. We can review the visible profile setup and website details, but Google's verification decision remains Google's.</p>
-          <p><a className="btn" href={wa("Hi, I'd like a free review of my Google Business Profile setup for my UAE service business.")} target="_blank" rel="noopener noreferrer">Request a free website and profile review ↗</a></p>
+          <div className="blog-cta">
+            <h2>Want a clearer verification plan?</h2>
+            <p>FixLeads Studio can review the visible details on your website and Google Business Profile so the business name, service information and contact journey are consistent. We can help identify practical gaps, but Google's verification decision remains Google's.</p>
+            <a className="btn" href={wa("Hi FixLeads Studio, I'd like a free review of my Google Business Profile setup for my UAE service business.")} target="_blank" rel="noopener noreferrer">Request a free website and profile review</a>
+          </div>
 
-          <p className="small-note">Official references: <a href="https://support.google.com/business/answer/14271705?hl=en" target="_blank" rel="noopener noreferrer">Google's video verification instructions</a>, <a href="https://support.google.com/business/answer/7107242" target="_blank" rel="noopener noreferrer">Google's verification methods</a>, and <a href="https://support.google.com/business/answer/9157481" target="_blank" rel="noopener noreferrer">Google's service-area business guidance</a>. Requirements can change; follow the instructions displayed in your Business Profile.</p>
+          <h2>Official references</h2>
+          <ul>
+            <li><a href="https://support.google.com/business/answer/14271705?hl=en" target="_blank" rel="noopener noreferrer">Google Business Profile Help: Verify your business with a video recording</a></li>
+            <li><a href="https://support.google.com/business/answer/7107242" target="_blank" rel="noopener noreferrer">Google Business Profile Help: Verify your business on Google</a></li>
+            <li><a href="https://support.google.com/business/answer/9157481" target="_blank" rel="noopener noreferrer">Google Business Profile Help: Service-area and hybrid businesses</a></li>
+            <li><a href="https://support.google.com/business/answer/3038177" target="_blank" rel="noopener noreferrer">Google Business Profile Help: Guidelines for representing your business</a></li>
+          </ul>
+          <p className="muted">Requirements and available verification methods can change. Follow the instructions displayed in your own Business Profile.</p>
+          <p className="muted"><Link href="/blog">← Back to all guides</Link></p>
         </div>
       </section>
     </article>
