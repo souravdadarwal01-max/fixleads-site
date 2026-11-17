@@ -69,7 +69,7 @@ export default function Home() {
               <div className="visual-top"><span className="window-dots"><i /><i /><i /></span><span>YOUR SERVICE WEBSITE</span><span className="live-tag">MOBILE READY</span></div>
               <div className="visual-site">
                 <div className="mock-brand"><span className="mock-logo">S</span><span><b>Service Company</b><small>Dubai · UAE</small></span><span className="mock-menu">☰</span></div>
-                <div className="mock-image"><span className="mock-kicker">RELIABLE LOCAL SERVICE</span><strong>Professional help.<br />Without the hassle.</strong><span className="mock-line" /><span className="mock-action">Request a quote <b>↗</b></span></div>
+                <div className="mock-image"><img className="mock-image-photo" src="https://images.unsplash.com/photo-1621905251189-08b45d6a269e?auto=format&fit=crop&w=1200&q=85" alt="Technician carrying out building maintenance work" width="900" height="650" fetchPriority="high" /><span className="mock-kicker">RELIABLE LOCAL SERVICE</span><strong>Professional help.<br />Without the hassle.</strong><span className="mock-line" /><span className="mock-action">Request a quote <b>↗</b></span></div>
                 <div className="mock-services"><span><i>✓</i> Clear services</span><span><i>✓</i> Areas covered</span><span><i>✓</i> Quick contact</span></div>
               </div>
               <div className="visual-note"><span className="note-icon">↗</span><span><b>One clear next step</b><small>Call, WhatsApp or request a quote</small></span></div>
@@ -98,6 +98,18 @@ export default function Home() {
         <div className="wrap">
           <div className="section-heading"><div><p className="eyebrow">SPECIALIST INDUSTRIES</p><h2>Made for the services people search for.</h2></div><p>Start with the services and areas that matter most to your business. We plan the pages around real customer questions—not generic filler.</p></div>
           <div className="industry-grid">{NICHES.map((n, i) => <Link key={n.slug} href={`/niches/${n.slug}`} className="industry-card"><span className="industry-index">0{i + 1}</span><div><h3>{n.name}</h3><p>{n.intro}</p><span className="industry-link">Explore website approach <b>↗</b></span></div></Link>)}</div>
+        </div>
+      </section>
+
+      <section className="sec home-photo-section" aria-labelledby="home-photo-title">
+        <div className="wrap">
+          <div className="section-heading"><div><p className="eyebrow">BUILT FOR REAL-WORLD SERVICES</p><h2 id="home-photo-title">Show customers the work behind your service.</h2></div><p>Relevant photography helps visitors understand your business at a glance. These are illustrative images, not client project claims.</p></div>
+          <div className="home-photo-grid">
+            <article className="home-photo-card"><img src="https://images.unsplash.com/photo-1581578731548-c64695cc6952?auto=format&fit=crop&w=900&q=85" alt="Professional cleaning team preparing a room for service" width="900" height="650" loading="lazy" /><div><span>01 / CLEANING</span><h3>Make the service easy to recognise.</h3></div></article>
+            <article className="home-photo-card"><img src="https://images.unsplash.com/photo-1607472586893-edb57bdc0e39?auto=format&fit=crop&w=900&q=85" alt="Plumbing professional working on a home maintenance task" width="900" height="650" loading="lazy" /><div><span>02 / PLUMBING</span><h3>Show the kind of help customers need.</h3></div></article>
+            <article className="home-photo-card"><img src="https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&w=900&q=85" alt="Small business team planning a customer-focused project" width="900" height="650" loading="lazy" /><div><span>03 / BUSINESS GROWTH</span><h3>Build confidence before the first enquiry.</h3></div></article>
+          </div>
+          <p className="home-photo-disclaimer">Illustrative stock photography. We use genuine business and project photos when supplied and approved by the client.</p>
         </div>
       </section>
 
