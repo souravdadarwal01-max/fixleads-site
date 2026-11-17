@@ -430,3 +430,12 @@ html{scroll-padding-top:110px}
 .hero-bottom-inner>div{color:#fff}
 .hero-bottom-inner i{background:#38b7aa}
 @media(max-width:650px){.hero-bottom-inner{padding-top:14px;padding-bottom:14px;align-items:flex-start;flex-direction:column;gap:9px}.hero-bottom-inner>div{gap:9px 11px}}
+
+
+/* Make homepage photo cards clearly interactive */
+.home-photo-card{display:block;color:#fff;text-decoration:none;cursor:pointer}
+.home-photo-card:focus-visible{outline:4px solid #38b7aa;outline-offset:4px}
+.home-photo-link{display:inline-flex;align-items:center;gap:9px;margin-top:12px;padding:8px 11px;border:1px solid rgba(255,255,255,.58);border-radius:7px;background:rgba(12,43,62,.55);color:#fff;font-size:.75rem;font-weight:850;backdrop-filter:blur(5px)}
+.home-photo-card:hover .home-photo-link{background:#fff;color:#102b55;border-color:#fff}
+.home-photo-link span{font-size:1rem;transition:transform .2s}
+.home-photo-card:hover .home-photo-link span{transform:translate(3px,-2px)}
