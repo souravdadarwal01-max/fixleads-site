@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">Fixing duplicate Google Business Profiles</title>
+  <desc id="desc">Two similar listing cards are checked and resolved into one accurate business profile.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b1734"/>
+      <stop offset="1" stop-color="#173d70"/>
+    </linearGradient>
+    <linearGradient id="green" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#10b981"/>
+      <stop offset="1" stop-color="#059669"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="150%">
+      <feDropShadow dx="0" dy="16" stdDeviation="16" flood-color="#061126" flood-opacity=".28"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <circle cx="1080" cy="72" r="210" fill="#ffffff" opacity=".045"/>
+  <circle cx="90" cy="570" r="220" fill="#10b981" opacity=".08"/>
+  <path d="M0 475 C220 400 350 550 560 475 S940 385 1200 455 V630 H0Z" fill="#ffffff" opacity=".035"/>
+  <text x="78" y="112" fill="#a7f3d0" font-family="Arial,Helvetica,sans-serif" font-size="20" font-weight="700" letter-spacing="4">FIXLEADS STUDIO · UAE LOCAL SEO</text>
+  <text x="78" y="190" fill="#ffffff" font-family="Arial,Helvetica,sans-serif" font-size="54" font-weight="800">ONE BUSINESS.</text>
+  <text x="78" y="254" fill="#ffffff" font-family="Arial,Helvetica,sans-serif" font-size="54" font-weight="800">ONE ACCURATE PROFILE.</text>
+  <text x="80" y="304" fill="#d7e6f8" font-family="Arial,Helvetica,sans-serif" font-size="23">Find duplicate listings. Choose the right fix.</text>
+  <g filter="url(#shadow)">
+    <rect x="700" y="132" width="390" height="132" rx="22" fill="#ffffff"/>
+    <rect x="700" y="294" width="390" height="132" rx="22" fill="#ffffff"/>
+    <rect x="700" y="456" width="390" height="104" rx="22" fill="#ecfdf5"/>
+  </g>
+  <g font-family="Arial,Helvetica,sans-serif">
+    <circle cx="758" cy="198" r="28" fill="#dbeafe"/>
+    <path d="M758 177c-13 0-22 10-22 22 0 16 22 36 22 36s22-20 22-36c0-12-9-22-22-22Zm0 30a8 8 0 1 1 0-16 8 8 0 0 1 0 16Z" fill="#1e40af"/>
+    <text x="805" y="190" fill="#10213e" font-size="23" font-weight="700">Business listing A</text>
+    <text x="805" y="222" fill="#64748b" font-size="17">Check name, location and owner</text>
+    <circle cx="758" cy="360" r="28" fill="#fee2e2"/>
+    <path d="M758 339c-13 0-22 10-22 22 0 16 22 36 22 36s22-20 22-36c0-12-9-22-22-22Zm0 30a8 8 0 1 1 0-16 8 8 0 0 1 0 16Z" fill="#dc2626"/>
+    <text x="805" y="352" fill="#10213e" font-size="23" font-weight="700">Business listing B</text>
+    <text x="805" y="384" fill="#64748b" font-size="17">Confirm whether it is a duplicate</text>
+    <path d="M895 430v19" stroke="#a7f3d0" stroke-width="5" stroke-linecap="round"/>
+    <path d="m883 440 12 12 12-12" fill="none" stroke="#a7f3d0" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="758" cy="508" r="24" fill="url(#green)"/>
+    <path d="m747 508 8 8 15-17" fill="none" stroke="#ffffff" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="800" y="502" fill="#065f46" font-size="23" font-weight="700">One verified business record</text>
+    <text x="800" y="530" fill="#047857" font-size="16">Use Google's correct ownership or merge process</text>
+  </g>
+  <text x="78" y="560" fill="#cbd5e1" font-family="Arial,Helvetica,sans-serif" font-size="18">Practical guidance for Dubai and UAE service businesses</text>
+</svg>
