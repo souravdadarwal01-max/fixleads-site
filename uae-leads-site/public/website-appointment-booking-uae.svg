@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">Online appointment booking for UAE service businesses</title>
+  <desc id="desc">A website booking calendar with available appointment windows, service details and a confirmation card.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b1734"/>
+      <stop offset="1" stop-color="#173d70"/>
+    </linearGradient>
+    <linearGradient id="green" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#10b981"/>
+      <stop offset="1" stop-color="#059669"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="150%">
+      <feDropShadow dx="0" dy="16" stdDeviation="16" flood-color="#061126" flood-opacity=".28"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <circle cx="1080" cy="70" r="210" fill="#ffffff" opacity=".045"/>
+  <circle cx="80" cy="575" r="220" fill="#10b981" opacity=".08"/>
+  <path d="M0 485 C220 410 360 555 570 478 S940 385 1200 455 V630 H0Z" fill="#ffffff" opacity=".035"/>
+  <text x="78" y="112" fill="#a7f3d0" font-family="Arial,Helvetica,sans-serif" font-size="20" font-weight="700" letter-spacing="4">FIXLEADS STUDIO · UAE WEBSITE GUIDE</text>
+  <text x="78" y="198" fill="#ffffff" font-family="Arial,Helvetica,sans-serif" font-size="53" font-weight="800">BOOKING THAT</text>
+  <text x="78" y="260" fill="#ffffff" font-family="Arial,Helvetica,sans-serif" font-size="53" font-weight="800">FITS THE JOB.</text>
+  <text x="80" y="315" fill="#d7e6f8" font-family="Arial,Helvetica,sans-serif" font-size="22">Clear slots. Real availability.</text>
+  <text x="80" y="348" fill="#d7e6f8" font-family="Arial,Helvetica,sans-serif" font-size="22">A reliable customer journey.</text>
+  <g filter="url(#shadow)">
+    <rect x="690" y="88" width="420" height="454" rx="26" fill="#ffffff"/>
+    <rect x="718" y="118" width="364" height="54" rx="14" fill="#eff6ff"/>
+    <rect x="718" y="190" width="364" height="300" rx="18" fill="#f8fafc"/>
+  </g>
+  <g font-family="Arial,Helvetica,sans-serif">
+    <circle cx="748" cy="145" r="10" fill="url(#green)"/>
+    <text x="772" y="153" fill="#10213e" font-size="21" font-weight="700">Choose a visit window</text>
+    <text x="744" y="225" fill="#64748b" font-size="16" font-weight="700">AVAILABLE APPOINTMENTS</text>
+    <g fill="#ffffff" stroke="#dbe4ef" stroke-width="2">
+      <rect x="744" y="248" width="148" height="62" rx="12"/>
+      <rect x="908" y="248" width="148" height="62" rx="12"/>
+      <rect x="744" y="326" width="148" height="62" rx="12"/>
+      <rect x="908" y="326" width="148" height="62" rx="12"/>
+    </g>
+    <rect x="908" y="326" width="148" height="62" rx="12" fill="#ecfdf5" stroke="#059669" stroke-width="2"/>
+    <g fill="#24344d" font-size="17" font-weight="700" text-anchor="middle">
+      <text x="818" y="286">09:00 AM</text>
+      <text x="982" y="286">11:00 AM</text>
+      <text x="818" y="364">01:00 PM</text>
+      <text x="982" y="364" fill="#047857">03:00 PM</text>
+    </g>
+    <rect x="744" y="416" width="312" height="48" rx="12" fill="url(#green)"/>
+    <path d="M770 439l9 9 17-20" fill="none" stroke="#ffffff" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="910" y="447" fill="#ffffff" font-size="18" font-weight="700" text-anchor="middle">REQUEST APPOINTMENT</text>
+    <text x="900" y="518" fill="#64748b" font-size="14" text-anchor="middle">Availability checked before confirmation</text>
+  </g>
+</svg>
