@@ -2,6 +2,7 @@ import Link from "next/link";
 import { SITE, wa } from "../../lib/site";
 
 const posts = [
+  { slug: "stop-spam-website-enquiries-uae", title: "How to Stop Spam Website Enquiries Without Blocking Real Customers in the UAE", description: "Reduce bot and junk form submissions without frustrating genuine customers. A practical UAE guide to validation, honeypots, rate limits, challenges and monitoring.", category: "Website reliability", readTime: "13 min read" },
   { slug: "uae-einvoicing-small-business-checklist", title: "UAE e-Invoicing for Small Businesses: 2027 Checklist", description: "A practical UAE e-invoicing guide for service businesses: who is in scope, 2027 deadlines, accredited providers and how to prepare your invoice workflow.", category: "Business operations", readTime: "13 min read" },
   { slug: "website-appointment-booking-uae", title: "Online Appointment Booking for UAE Service Businesses: Website Setup Checklist", description: "Plan an online booking system for a UAE service-business website, with realistic time slots, service areas, confirmations, privacy checks and a reliable fallback.", category: "Website booking", readTime: "12 min read" },
   { slug: "google-business-profile-duplicate-listings-uae", title: "Duplicate Google Business Profiles in the UAE: How to Fix Multiple Listings", description: "Found two Google Business Profiles for one UAE business? Learn how to check duplicates, request access, report a merge and avoid removing the wrong listing.", category: "Local SEO", readTime: "12 min read" },
