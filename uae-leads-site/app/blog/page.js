@@ -2,6 +2,7 @@ import Link from "next/link";
 import { SITE, wa } from "../../lib/site";
 
 const posts = [
+  { slug: "google-search-console-monthly-review-uae", title: "Google Search Console for UAE Service Businesses: A Monthly SEO Review Checklist", description: "A practical monthly Google Search Console workflow for Dubai and UAE service businesses: review queries, pages, devices, CTR and SEO priorities.", category: "Analytics & SEO", readTime: "12 min read" },
   { slug: "stop-spam-website-enquiries-uae", title: "How to Stop Spam Website Enquiries Without Blocking Real Customers in the UAE", description: "Reduce bot and junk form submissions without frustrating genuine customers. A practical UAE guide to validation, honeypots, rate limits, challenges and monitoring.", category: "Website reliability", readTime: "13 min read" },
   { slug: "uae-einvoicing-small-business-checklist", title: "UAE e-Invoicing for Small Businesses: 2027 Checklist", description: "A practical UAE e-invoicing guide for service businesses: who is in scope, 2027 deadlines, accredited providers and how to prepare your invoice workflow.", category: "Business operations", readTime: "13 min read" },
   { slug: "website-appointment-booking-uae", title: "Online Appointment Booking for UAE Service Businesses: Website Setup Checklist", description: "Plan an online booking system for a UAE service-business website, with realistic time slots, service areas, confirmations, privacy checks and a reliable fallback.", category: "Website booking", readTime: "12 min read" },
